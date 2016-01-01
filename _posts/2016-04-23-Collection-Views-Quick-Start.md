@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Collection Views Quick Start"
+title: "Chapter 3: Collection Views Quick Start"
 description: ""
 category: Pro_iOS_Table_Views_and_Collection_Views
 tags: [Pro_iOS_Table_Views_and_Collection_Views]
@@ -48,6 +48,8 @@ The collection view control itself is pretty dumb; it relies on the support of f
 
 ![8](/assets/images/Pro_iOS_Table_Views_and_Collection_Views/3/8.png)
 
+### Creating the Application Skeleton
+
 ![9](/assets/images/Pro_iOS_Table_Views_and_Collection_Views/3/9.png)
 
 ![10](/assets/images/Pro_iOS_Table_Views_and_Collection_Views/3/10.png)
@@ -64,6 +66,29 @@ The collection view control itself is pretty dumb; it relies on the support of f
 
 ![16](/assets/images/Pro_iOS_Table_Views_and_Collection_Views/3/16.png)
 
+### Setting Up the Collection View in the Storyboard
+
+![17](/assets/images/Pro_iOS_Table_Views_and_Collection_Views/3/17.png)
+
+![18](/assets/images/Pro_iOS_Table_Views_and_Collection_Views/3/18.png)
+
+![19](/assets/images/Pro_iOS_Table_Views_and_Collection_Views/3/19.png)
+
+![20](/assets/images/Pro_iOS_Table_Views_and_Collection_Views/3/20.png)
+
+![21](/assets/images/Pro_iOS_Table_Views_and_Collection_Views/3/21.png)
+
+![22](/assets/images/Pro_iOS_Table_Views_and_Collection_Views/3/22.png)
+
+![23](/assets/images/Pro_iOS_Table_Views_and_Collection_Views/3/23.png)
+
+![24](/assets/images/Pro_iOS_Table_Views_and_Collection_Views/3/24.png)
+
+![25](/assets/images/Pro_iOS_Table_Views_and_Collection_Views/3/25.png)
+
+![26](/assets/images/Pro_iOS_Table_Views_and_Collection_Views/3/26.png)
+
+![27](/assets/images/Pro_iOS_Table_Views_and_Collection_Views/3/27.png)
 
 ## Summary
 
