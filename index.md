@@ -1,46 +1,44 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: iOSDevLog!
+tagline: iosdevlog.com
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+# Welcome to [iOSDevLog](http://iosdevlog.com) Official Home Page!
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+# 欢迎来到 [iOS 开发日志](http://iosdevlog.com) 官方网站
+---
 
-## Update Author Attributes
+这几天又是各种借口没有更新播客，从晚上开始补更。
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+历经九九八十一期的磨难，我的播客 《iOS 开发日志》 终于成功登上了 苹果的 Podcast。
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+<https://itunes.apple.com/cn/podcast/ios-kai-fa-ri-zhi/id1039229999?mt=2>
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+喜欢的朋友欢迎订阅噢!
 
-    $ rm -rf _posts/core-samples
+gihub 仓库地址:
 
-Here's a sample "posts list".
+<https://github.com/iOSDevLog/iOSDevLog>
+
+视频地址:
+
+<http://pan.baidu.com/s/1pJ5qjwR>
+
+WWDC 中文字幕:
+
+<https://github.com/iOSDevLog/wwdc_chinese>
+
+---
+
+# 博客
+---
 
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
 
 
