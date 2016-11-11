@@ -46,6 +46,8 @@ CREATE NEW PROJECT / 新建项目
 
 ![5](/assets/images/Android/AndroidDevLog/push/5.png)
 
+![6](/assets/images/Android/AndroidDevLog/push/6.png)
+
 ## 将 Firebase 添加至您的应用
 
 现在，可以将 Firebase 添加至您的应用了。为此，您的应用需要有一个 Firebase 项目和一个 Firebase 配置文件。

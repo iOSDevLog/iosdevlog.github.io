@@ -7,6 +7,10 @@ tags: [iOSDevLog]
 ---
 {% include JB/setup %}
 
+## 源码
+
+<https://github.com/iOSDevLog/iOSDevLog/tree/master/push>
+
 ## keyword
 
 * Development SSL Certificate： 连接 XCode 调试的证书
@@ -55,6 +59,10 @@ XCode 8 自己管理证书
 
 ![17](/assets/images/iOS/push/17.png)
 
+![18](/assets/images/iOS/push/18.png)
+
+![19](/assets/images/iOS/push/19.png)
+
 ```bash
 $ ls
 $ openssl pkcs12 -clcerts -nokeys -out apns-dev-cert.pem -in apns-dev-cert.p12
@@ -73,16 +81,16 @@ $ ls
 ```php
 <?php
 
-$deviceToken = '';//这里填写设备的Token码
-$passphrase = ''; //证书密码
+$deviceToken='215429c637b955dfec66811a338b6c3bd691995d565e74f7d21320e8bc792bf6';//这里填写设备的Token码
+$passphrase = '123456'; //证书密码
 //推送的消息 ;
-$message = ''; //要发送的标题
+$message = 'Hello'; //要发送的标题
 ////////////////////////////////////////////////////////////////////////////////
 //如果在Windows的服务器上，寻找pem路径会有问题，路径修改成这样的方法：
 //$pem = dirname(__FILE__) . '/' . 'apns-dev.pem';
 //linux 的服务器直接写pem的路径即可
 $ctx = stream_context_create();
-stream_context_set_option($ctx, 'ssl', 'local_cert', 'ck.pem');//ck文件
+stream_context_set_option($ctx, 'ssl', 'local_cert', 'apns-dis.pem');//ck文件
 stream_context_set_option($ctx, 'ssl', 'passphrase', $passphrase);
 
 // Open a connection to the APNS server
@@ -92,14 +100,14 @@ stream_context_set_option($ctx, 'ssl', 'passphrase', $passphrase);
 */
 
 //正式环境的地址
-$fp = stream_socket_client(
-    'ssl://gateway.push.apple.com:2195', $err,
-    $errstr, 60, STREAM_CLIENT_CONNECT|STREAM_CLIENT_PERSISTENT, $ctx);
+//$fp = stream_socket_client(
+//    'ssl://gateway.push.apple.com:2195', $err,
+//    $errstr, 60, STREAM_CLIENT_CONNECT|STREAM_CLIENT_PERSISTENT, $ctx);
 
 //测试环境
-// $fp = stream_socket_client(
-//     'ssl://gateway.sandbox.push.apple.com:2195', $err,
-//     $errstr, 60, STREAM_CLIENT_CONNECT|STREAM_CLIENT_PERSISTENT, $ctx);
+ $fp = stream_socket_client(
+     'ssl://gateway.sandbox.push.apple.com:2195', $err,
+     $errstr, 60, STREAM_CLIENT_CONNECT|STREAM_CLIENT_PERSISTENT, $ctx);
 
 if (!$fp)
     exit("Failed to connect: $err $errstr" . PHP_EOL);
@@ -110,7 +118,8 @@ echo 'Connected to APNS' . PHP_EOL;
 $body['aps'] = array(
     'alert' => $message,
     'sound' => 'default',
-    'badge' => '12'
+    'badge' => 100,
+    'url' => 'https://iosdevlog.com',
     );
 
 // Encode the payload as JSON
@@ -131,4 +140,10 @@ else
 fclose($fp);
     
 ?>
+```
+
+我把 php 及证书文件放到 源码 *push_php* 里面，小伙伴们可以自己尝试。
+
+```bash
+$ php push.php
 ```
