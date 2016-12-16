@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Android博客周刊"
-description: "iOSDevLog"
+description: "AndroidDevLog"
 category: 
-tags: [iOSDevLog]
+tags: [AndroidDevLog]
 ---
 {% include JB/setup %}
 
