@@ -30,6 +30,17 @@ WWDC 中文字幕:
 
 <https://github.com/iOSDevLog/wwdc_chinese>
 
+Android 代码:
+
+<https://github.com/AndroidDevLog/AndroidDevLog>
+
+优酷视频： 
+<http://i.youku.com/iosdevlog>
+
+网盘:    
+
+<https://pan.baidu.com/s/1pJ5qjwR#list/path=%2F>
+
 ---
 
 # 博客
