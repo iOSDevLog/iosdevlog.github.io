@@ -5,7 +5,7 @@ description: ""
 category: synthesia
 tags: [synthesia, linux]
 ---
-{% include JB/setup %}
+
 
 ## synthesia
 ---

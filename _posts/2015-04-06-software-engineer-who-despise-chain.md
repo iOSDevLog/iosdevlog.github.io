@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [Software]
 ---
-{% include JB/setup %}
+
 
 最近这几年在世界各地突然吹起了一股全民写程序的风潮，连美国总统欧巴马都在写 *JavaScript* 了，但是身为一介靠写程序（以及在上班时间胡乱上网）来谋生的 *developer*（所谓的 *developer* 就是「软件工程师」的比较潮的说法），想要提醒那些想学习写程序的人一件重要的事：慎选你的第一个程序语言。
 

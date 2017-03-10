@@ -5,7 +5,7 @@ description: ""
 category: retroarch 
 tags: [ios, retroarch]
 ---
-{% include JB/setup %}
+
 
 ## Download RetroArch
 ---

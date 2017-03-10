@@ -5,7 +5,7 @@ description: ""
 category: Pro_iOS_Table_Views_and_Collection_Views
 tags: [Pro_iOS_Table_Views_and_Collection_Views]
 ---
-{% include JB/setup %}
+
 
 # Pro iOS Table Views and Collection Views: Using Swift 2
 

@@ -5,7 +5,7 @@ description: ""
 category: iOS
 tags: [iOS, arc]
 ---
-{% include JB/setup %}
+
 
 软件运行时会分配和使用设备的内存资源，因此，在软件开发的过程中，需要进行内存管理，以保证高效、快速的分配内存，并且在适当的时候释放和回收内存资源。
 

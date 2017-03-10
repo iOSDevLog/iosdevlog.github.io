@@ -5,7 +5,7 @@ description: ""
 category: math
 tags: [math]
 ---
-{% include JB/setup %}
+
 
 ## 变换物体与变换坐标系
 ---

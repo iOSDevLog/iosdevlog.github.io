@@ -5,7 +5,7 @@ description: ""
 category: wwdc
 tags: [wwdc, ui, test]
 ---
-{% include JB/setup %}
+
 
 # UI Testing in Xcode
 ---

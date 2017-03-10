@@ -5,7 +5,7 @@ description: "AndroidDevLog"
 category: 
 tags: [Android, iOS]
 ---
-{% include JB/setup %}
+
 
 ## gogs
 

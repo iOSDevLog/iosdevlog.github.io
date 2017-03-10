@@ -5,7 +5,7 @@ description: ""
 category: ios
 tags: [ios, CodeSign, xcode]
 ---
-{% include JB/setup %}
+
 
 ## CodeSign error: code signing is required for product type Application in SDK iOS X.X
 

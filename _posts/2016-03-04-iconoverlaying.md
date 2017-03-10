@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: []
 ---
-{% include JB/setup %}
+
 
 # Overlaying application version on top of your icon 覆盖应用程序版本的图标
 ---

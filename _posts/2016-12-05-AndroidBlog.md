@@ -5,7 +5,7 @@ description: "AndroidDevLog"
 category: 
 tags: [AndroidDevLog]
 ---
-{% include JB/setup %}
+
 
 # Android博客周刊 <http://androidblog.cn>
 ---

@@ -5,7 +5,7 @@ description: ""
 category: iOSDevLog
 tags: [iOSDevLog]
 ---
-{% include JB/setup %}
+
 
 # iOS Dev Log
 ---

@@ -5,7 +5,7 @@ description: "Android Studio"
 category: 
 tags: [Tools]
 ---
-{% include JB/setup %}
+
 
 ![tools](/assets/images/Tools/tools.png)
 

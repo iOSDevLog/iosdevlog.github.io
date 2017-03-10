@@ -5,7 +5,7 @@ description: ""
 category: ios
 tags: [book, ios]
 ---
-{% include JB/setup %}
+
 
 <https://github.com/Aufree/trip-to-iOS>
 

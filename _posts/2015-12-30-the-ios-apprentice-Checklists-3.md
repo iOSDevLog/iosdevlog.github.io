@@ -5,7 +5,7 @@ description: ""
 category: raywinderlich
 tags: [raywinderlich]
 ---
-{% include JB/setup %}
+
 
 ## Adding new items to the checklist
 ---

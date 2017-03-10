@@ -5,6 +5,6 @@ description: ""
 category: git
 tags: [git]
 ---
-{% include JB/setup %}
+
 
 `git config --global http.postBuffer 524288000`

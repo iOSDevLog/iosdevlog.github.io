@@ -5,7 +5,7 @@ description: ""
 category: math
 tags: [math]
 ---
-{% include JB/setup %}
+
 
 ## 零向量
 ---

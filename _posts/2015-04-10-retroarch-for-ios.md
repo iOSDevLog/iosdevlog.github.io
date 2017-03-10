@@ -5,7 +5,7 @@ description: ""
 category: RetroArch
 tags: [RetroArch, ios]
 ---
-{% include JB/setup %}
+
 
 
 # Get RetroArch

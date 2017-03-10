@@ -5,7 +5,8 @@ description: ""
 category: swift
 tags: [swift]
 ---
-{% include JB/setup %}
+
+###
 
 {% highlight swift %}
 //: ## Control Flow

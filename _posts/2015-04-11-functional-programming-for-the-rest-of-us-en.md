@@ -5,7 +5,7 @@ description: ""
 category: book
 tags: [book, FP]
 ---
-{% include JB/setup %}
+
 
 <https://github.com/justinyhuang/Functional-Programming-For-The-Rest-of-Us-Cn>
 

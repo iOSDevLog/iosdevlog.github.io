@@ -5,7 +5,7 @@ description: ""
 category: Linux
 tags: [Linux, command]
 ---
-{% include JB/setup %}
+
 
 原文： <http://i.linuxtoy.org/docs/guide/ch02s02.html>
 

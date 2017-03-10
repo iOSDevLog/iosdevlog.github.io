@@ -5,7 +5,7 @@ description: ""
 category: software
 tags: [software, gtw]
 ---
-{% include JB/setup %}
+
 
 软件下载地址：<http://ttt.tt/150/>
 [ShadowsocksX](/assets/software/ShadowsocksX-2.5.dmg)

@@ -5,7 +5,7 @@ description: ""
 category: joke
 tags: [joke, programmer]
 ---
-{% include JB/setup %}
+
 
 ## 谜语
 ---

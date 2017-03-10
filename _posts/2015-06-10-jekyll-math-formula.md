@@ -5,7 +5,7 @@ description: ""
 category: latex
 tags: [latex, jekyll]
 ---
-{% include JB/setup %}
+
 
 > 使用Jekyll写作文章的时候有可能需要内嵌一些数学公式, MathJax就是用来干这个的，试用了一下感觉非常方便。步骤如下:
 

@@ -5,7 +5,7 @@ description: ""
 category: smalltalk
 tags: [smalltalk, book]
 ---
-{% include JB/setup %}
+
 
 
 Site:  <http://pharobyexample.org/versions/PBE1-2009-10-28.pdf>

@@ -5,7 +5,7 @@ description: ""
 category: smalltalk 
 tags: [smalltalk, language]
 ---
-{% include JB/setup %}
+
 
 原文:<http://www.eli.sdsu.edu/courses/spring01/cs635/readingSmalltalk.pdf>
 

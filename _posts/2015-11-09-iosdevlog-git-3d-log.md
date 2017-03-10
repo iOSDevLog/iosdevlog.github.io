@@ -5,7 +5,7 @@ description: ""
 category: git
 tags: [git]
 ---
-{% include JB/setup %}
+
 
 ![iOSDevLog](https://github.com/iOSDevLog/iOSDevLog.github.io/raw/master/assets/images/iosdevlog.gif)
 

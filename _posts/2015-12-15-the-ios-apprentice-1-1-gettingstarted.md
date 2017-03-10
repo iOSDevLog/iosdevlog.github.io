@@ -5,7 +5,7 @@ description: ""
 category: raywinderlich
 tags: [raywinderlich]
 ---
-{% include JB/setup %}
+
 
 # The Bull’s Eye game
 ---

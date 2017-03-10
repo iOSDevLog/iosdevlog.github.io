@@ -5,7 +5,7 @@ description: ""
 category: python
 tags: [python, virtualenvwrapper]
 ---
-{% include JB/setup %}
+
 
 ## Mac OS X
 ---

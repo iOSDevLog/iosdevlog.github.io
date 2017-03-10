@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [tool]
 ---
-{% include JB/setup %}
+
 
 [Mouse Recorder for Mac](https://www.jitbit.com/mac-mouse-recorder/)
 

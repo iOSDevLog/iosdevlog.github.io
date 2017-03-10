@@ -5,7 +5,7 @@ description: ""
 category: unity
 tags: [unity]
 ---
-{% include JB/setup %}
+
 
 FingerGestures是一个unity3D插件，用来处理用户动作，手势。  译自[FingerGestures官方文档](http://fingergestures.fatalfrog.com/docs/manual:start) 
 

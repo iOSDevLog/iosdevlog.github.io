@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [git]
 ---
-{% include JB/setup %}
+
 
 <http://marklodato.github.io/visual-git-guide/index-en.html>
 

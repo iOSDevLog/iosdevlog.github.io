@@ -5,7 +5,7 @@ description: "Simulator"
 category: 
 tags: [Simulator]
 ---
-{% include JB/setup %}
+
 
 ## add new photos to the Simulator 向模拟器中加入新照片
 ---

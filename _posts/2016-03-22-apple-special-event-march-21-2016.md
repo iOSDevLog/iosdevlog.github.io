@@ -5,6 +5,6 @@ description: ""
 category: 
 tags: []
 ---
-{% include JB/setup %}
+
 
 ![2016](/assets/images/apple/2016.jpg)

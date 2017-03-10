@@ -5,7 +5,7 @@ description: ""
 category: swift
 tags: [swift, Alamofire, AFNetworking]
 ---
-{% include JB/setup %}
+
 
 
 ![Alamofire: Elegant Networking in Swift](https://raw.githubusercontent.com/Alamofire/Alamofire/assets/alamofire.png)

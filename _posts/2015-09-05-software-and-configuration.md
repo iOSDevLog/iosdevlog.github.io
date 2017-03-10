@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [software]
 ---
-{% include JB/setup %}
+
 
 OS X Software
 

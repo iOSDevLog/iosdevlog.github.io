@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [git]
 ---
-{% include JB/setup %}
+
 
 用`rebase -i`
 

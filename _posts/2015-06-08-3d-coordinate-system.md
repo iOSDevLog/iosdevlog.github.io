@@ -5,7 +5,7 @@ description: ""
 category: 3d
 tags: [3d, unity]
 ---
-{% include JB/setup %}
+
 
 ## 左手坐标系
 ---

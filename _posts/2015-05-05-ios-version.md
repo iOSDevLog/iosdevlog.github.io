@@ -5,7 +5,7 @@ description: ""
 category: ios
 tags: [ios]
 ---
-{% include JB/setup %}
+
 
 但是在使用中我们发现好多开发者对怎么更好的用版本号来标示应用很陌生. 这是篇基础文章, 简单介绍 iOS 的版本号.
 

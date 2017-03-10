@@ -5,7 +5,7 @@ description: ""
 category: jekyll
 tags: [jekyll, pygments, highlighting ]
 ---
-{% include JB/setup %}
+
 
 <http://jekyllrb.com/docs/templates/>
 

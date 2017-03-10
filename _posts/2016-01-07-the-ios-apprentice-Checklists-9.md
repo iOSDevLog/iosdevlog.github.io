@@ -5,7 +5,7 @@ description: ""
 category: raywinderlich
 tags: [raywinderlich]
 ---
-{% include JB/setup %}
+
 
 ## Using NSUserDefaults to remember stuff 用 NSUserDefaults 记一些东西
 ---

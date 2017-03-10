@@ -5,7 +5,7 @@ description: ""
 category: raywinderlich
 tags: [raywinderlich]
 ---
-{% include JB/setup %}
+
 
 ## 04 - Add Item Screen
 ---

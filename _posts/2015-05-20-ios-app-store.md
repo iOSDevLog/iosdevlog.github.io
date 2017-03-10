@@ -5,7 +5,7 @@ description: ""
 category: ios
 tags: [ios, Certificate]
 ---
-{% include JB/setup %}
+
 
 ## 摘要
 ---

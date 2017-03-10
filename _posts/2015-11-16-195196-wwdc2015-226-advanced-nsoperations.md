@@ -5,7 +5,7 @@ description: ""
 category: wwdc
 tags: [wwdc, NSOperations]
 ---
-{% include JB/setup %}
+
 
 ## WWDC App
 ---

@@ -5,7 +5,7 @@ description: ""
 category: software 
 tags: [Mac OS X, software, Node.js]
 ---
-{% include JB/setup %}
+
 
 Download Node.js
 

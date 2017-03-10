@@ -5,7 +5,7 @@ description: ""
 category: linux
 tags: [linux]
 ---
-{% include JB/setup %}
+
 
 原文：<http://blog.chinaunix.net/uid-20662363-id-1904149.html>
 ---

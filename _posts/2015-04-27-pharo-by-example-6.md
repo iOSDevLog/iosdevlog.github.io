@@ -5,7 +5,7 @@ description: ""
 category: smalltalk
 tags: [smalltalk, book]
 ---
-{% include JB/setup %}
+
 
 ## The Pharo programming environment
 ---

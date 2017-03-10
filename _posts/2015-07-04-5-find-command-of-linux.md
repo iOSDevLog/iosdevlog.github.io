@@ -5,7 +5,7 @@ description: ""
 category: Linux
 tags: [Linux]
 ---
-{% include JB/setup %}
+
 
 ## 原文: <http://www.ruanyifeng.com/blog/2009/10/5_ways_to_search_for_files_using_the_terminal.html>
 ---

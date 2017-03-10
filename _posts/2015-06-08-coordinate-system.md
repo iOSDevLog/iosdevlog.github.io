@@ -5,7 +5,7 @@ description: ""
 category: math
 tags: [3d, 2d]
 ---
-{% include JB/setup %}
+
 
 ## 世界坐标系
 ---

@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [git]
 ---
-{% include JB/setup %}
+
 
 just a simple guide for getting started with git. no deep shit ;)
 

@@ -5,7 +5,7 @@ description: ""
 category: ios
 tags: [ios, text]
 ---
-{% include JB/setup %}
+
 
 ## 问题
 ---

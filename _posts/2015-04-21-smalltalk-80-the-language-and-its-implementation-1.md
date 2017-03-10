@@ -5,7 +5,7 @@ description: ""
 category: smalltalk
 tags: [smalltalk, book]
 ---
-{% include JB/setup %}
+
 
 Title: Smalltalk-80: The Language and Its Implementation
 

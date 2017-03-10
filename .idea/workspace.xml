@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c5daed11-7d03-4ce7-81c8-0936b6926c4e" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Rakefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/analytics" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/analytics-providers/gauges" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/analytics-providers/getclicky" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/analytics-providers/google" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/analytics-providers/google-universal" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/analytics-providers/mixpanel" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/analytics-providers/piwik" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/categories_list" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/comments" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/comments-providers/disqus" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/comments-providers/duoshuo" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/comments-providers/facebook" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/comments-providers/intensedebate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/comments-providers/livefyre" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/feedburner" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/file_exists" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/gist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/is_production" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/liquid_raw" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/pages_list" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/posts_collate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/setup" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/sharing" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/sort_collection" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/JB/tags_list" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/themes/bootstrap-3/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/themes/bootstrap-3/page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/themes/bootstrap-3/post.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/themes/bootstrap-3/settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/themes/twitter/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/themes/twitter/page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/themes/twitter/post.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_includes/themes/twitter/settings.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/page.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2015-11-24-gameplaykit-framework-reference" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/archive.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/bootstrap-3/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/bootstrap-3/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/bootstrap-3/bootstrap/css/bs-sticky-footer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/bootstrap-3/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/bootstrap-3/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/bootstrap/css/bs-sticky-footer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/twitter/bootstrap/css/bootstrap.2.2.2.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/twitter/bootstrap/img/glyphicons-halflings-white.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/twitter/bootstrap/img/glyphicons-halflings.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/themes/twitter/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/categories.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/pages.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tags.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_drafts/jekyll-introduction-draft.md" afterPath="$PROJECT_DIR$/_drafts/jekyll-introduction-draft.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-02-markdown.md" afterPath="$PROJECT_DIR$/_posts/2015-04-02-markdown.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-03-git---the-simple-guide.md" afterPath="$PROJECT_DIR$/_posts/2015-04-03-git---the-simple-guide.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-03-git-push-multiple-hosts.md" afterPath="$PROJECT_DIR$/_posts/2015-04-03-git-push-multiple-hosts.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-04-git-manual.md" afterPath="$PROJECT_DIR$/_posts/2015-04-04-git-manual.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-04-visual-git-guide.md" afterPath="$PROJECT_DIR$/_posts/2015-04-04-visual-git-guide.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-05-muiltply-commits-to-one-commit.md" afterPath="$PROJECT_DIR$/_posts/2015-04-05-muiltply-commits-to-one-commit.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-06-software-engineer-who-despise-chain.md" afterPath="$PROJECT_DIR$/_posts/2015-04-06-software-engineer-who-despise-chain.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-07-jekyll-code-snippet-highlighting.md" afterPath="$PROJECT_DIR$/_posts/2015-04-07-jekyll-code-snippet-highlighting.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-07-libretro.md" afterPath="$PROJECT_DIR$/_posts/2015-04-07-libretro.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-07-pip.md" afterPath="$PROJECT_DIR$/_posts/2015-04-07-pip.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-07-virtualenvwrapper.md" afterPath="$PROJECT_DIR$/_posts/2015-04-07-virtualenvwrapper.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-08-free-programming-books-zh_cn.md" afterPath="$PROJECT_DIR$/_posts/2015-04-08-free-programming-books-zh_cn.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-09-codesign-error-code-signing-is-required-for-product-type-application-in-sdk-ios.md" afterPath="$PROJECT_DIR$/_posts/2015-04-09-codesign-error-code-signing-is-required-for-product-type-application-in-sdk-ios.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-09-trip-to-ios.md" afterPath="$PROJECT_DIR$/_posts/2015-04-09-trip-to-ios.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-10-retroarch-for-ios.md" afterPath="$PROJECT_DIR$/_posts/2015-04-10-retroarch-for-ios.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-11-functional-programming-for-the-rest-of-us-cn.md" afterPath="$PROJECT_DIR$/_posts/2015-04-11-functional-programming-for-the-rest-of-us-cn.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-11-functional-programming-for-the-rest-of-us-en.md" afterPath="$PROJECT_DIR$/_posts/2015-04-11-functional-programming-for-the-rest-of-us-en.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-12-unix-abbreviation.md" afterPath="$PROJECT_DIR$/_posts/2015-04-12-unix-abbreviation.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-13-ios-60-minutes.md" afterPath="$PROJECT_DIR$/_posts/2015-04-13-ios-60-minutes.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-14-git-clone-error-rpc-failed-result18-http-code--200.md" afterPath="$PROJECT_DIR$/_posts/2015-04-14-git-clone-error-rpc-failed-result18-http-code--200.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-15-antirsi.md" afterPath="$PROJECT_DIR$/_posts/2015-04-15-antirsi.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-16-build-retroarch-nightly-for-ios.md" afterPath="$PROJECT_DIR$/_posts/2015-04-16-build-retroarch-nightly-for-ios.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-17-the-different-between-simlsimulator-and-emulator.md" afterPath="$PROJECT_DIR$/_posts/2015-04-17-the-different-between-simlsimulator-and-emulator.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-18-gitbook.md" afterPath="$PROJECT_DIR$/_posts/2015-04-18-gitbook.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-18-mac-os-x-nodejs.md" afterPath="$PROJECT_DIR$/_posts/2015-04-18-mac-os-x-nodejs.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-19-top-100-objective-c-on-github.md" afterPath="$PROJECT_DIR$/_posts/2015-04-19-top-100-objective-c-on-github.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-19-trip-to-ios.md" afterPath="$PROJECT_DIR$/_posts/2015-04-19-trip-to-ios.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-20-i-can-read-c-and-java-but-i-cant-read-smalltalk.md" afterPath="$PROJECT_DIR$/_posts/2015-04-20-i-can-read-c-and-java-but-i-cant-read-smalltalk.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-21-smalltalk-80-the-language-and-its-implementation-1.md" afterPath="$PROJECT_DIR$/_posts/2015-04-21-smalltalk-80-the-language-and-its-implementation-1.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-22-smalltalk-80-the-language-and-its-implementation-2.md" afterPath="$PROJECT_DIR$/_posts/2015-04-22-smalltalk-80-the-language-and-its-implementation-2.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-22-smalltalk-80-the-language-and-its-implementation-3.md" afterPath="$PROJECT_DIR$/_posts/2015-04-22-smalltalk-80-the-language-and-its-implementation-3.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-22-smalltalk-80-the-language-and-its-implementation-4.md" afterPath="$PROJECT_DIR$/_posts/2015-04-22-smalltalk-80-the-language-and-its-implementation-4.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-23-pharo-by-example-1.md" afterPath="$PROJECT_DIR$/_posts/2015-04-23-pharo-by-example-1.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-23-pharo-by-example-2.md" afterPath="$PROJECT_DIR$/_posts/2015-04-23-pharo-by-example-2.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-24-pharo-by-example-3.md" afterPath="$PROJECT_DIR$/_posts/2015-04-24-pharo-by-example-3.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-25-pharo-by-example-4.md" afterPath="$PROJECT_DIR$/_posts/2015-04-25-pharo-by-example-4.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-26-pharo-by-example-5.md" afterPath="$PROJECT_DIR$/_posts/2015-04-26-pharo-by-example-5.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-27-pharo-by-example-6.md" afterPath="$PROJECT_DIR$/_posts/2015-04-27-pharo-by-example-6.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-28-pharo-by-example-7.md" afterPath="$PROJECT_DIR$/_posts/2015-04-28-pharo-by-example-7.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-29-pharo-by-example-8.md" afterPath="$PROJECT_DIR$/_posts/2015-04-29-pharo-by-example-8.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-04-30-pharo-by-example-9.md" afterPath="$PROJECT_DIR$/_posts/2015-04-30-pharo-by-example-9.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-01-pharo-by-example-10.md" afterPath="$PROJECT_DIR$/_posts/2015-05-01-pharo-by-example-10.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-01-pharo-by-example-11.md" afterPath="$PROJECT_DIR$/_posts/2015-05-01-pharo-by-example-11.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-02-pharo-by-example-12.md" afterPath="$PROJECT_DIR$/_posts/2015-05-02-pharo-by-example-12.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-03-pharo-by-example-13.md" afterPath="$PROJECT_DIR$/_posts/2015-05-03-pharo-by-example-13.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-03-pharo-by-example-14.md" afterPath="$PROJECT_DIR$/_posts/2015-05-03-pharo-by-example-14.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-04-ios-size.md" afterPath="$PROJECT_DIR$/_posts/2015-05-04-ios-size.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-05-ios-version.md" afterPath="$PROJECT_DIR$/_posts/2015-05-05-ios-version.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-06-3-days-swift.md" afterPath="$PROJECT_DIR$/_posts/2015-05-06-3-days-swift.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-07-alamofire.md" afterPath="$PROJECT_DIR$/_posts/2015-05-07-alamofire.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-08-ios-memory-management.md" afterPath="$PROJECT_DIR$/_posts/2015-05-08-ios-memory-management.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-09-nsmutableattributedstring.md" afterPath="$PROJECT_DIR$/_posts/2015-05-09-nsmutableattributedstring.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-10-autolayout.md" afterPath="$PROJECT_DIR$/_posts/2015-05-10-autolayout.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-11-tableview-1.md" afterPath="$PROJECT_DIR$/_posts/2015-05-11-tableview-1.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-12-tableview-2.md" afterPath="$PROJECT_DIR$/_posts/2015-05-12-tableview-2.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-13-tableview-3.md" afterPath="$PROJECT_DIR$/_posts/2015-05-13-tableview-3.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-14-tableview-4.md" afterPath="$PROJECT_DIR$/_posts/2015-05-14-tableview-4.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-15-tableview-5.md" afterPath="$PROJECT_DIR$/_posts/2015-05-15-tableview-5.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-15-tableview-6.md" afterPath="$PROJECT_DIR$/_posts/2015-05-15-tableview-6.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-15-tableview-7.md" afterPath="$PROJECT_DIR$/_posts/2015-05-15-tableview-7.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-15-tableview-8.md" afterPath="$PROJECT_DIR$/_posts/2015-05-15-tableview-8.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-15-tableview-9.md" afterPath="$PROJECT_DIR$/_posts/2015-05-15-tableview-9.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-16-tableview-10.md" afterPath="$PROJECT_DIR$/_posts/2015-05-16-tableview-10.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-17-tableview-11.md" afterPath="$PROJECT_DIR$/_posts/2015-05-17-tableview-11.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-18-tableview-12.md" afterPath="$PROJECT_DIR$/_posts/2015-05-18-tableview-12.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-19-tableview-13.md" afterPath="$PROJECT_DIR$/_posts/2015-05-19-tableview-13.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-19-tableview-14.md" afterPath="$PROJECT_DIR$/_posts/2015-05-19-tableview-14.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-20-ios-app-store.md" afterPath="$PROJECT_DIR$/_posts/2015-05-20-ios-app-store.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-21-cocos2dx-0.md" afterPath="$PROJECT_DIR$/_posts/2015-05-21-cocos2dx-0.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-22-cocos2dx-1.md" afterPath="$PROJECT_DIR$/_posts/2015-05-22-cocos2dx-1.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-23-cocos2dx-2.md" afterPath="$PROJECT_DIR$/_posts/2015-05-23-cocos2dx-2.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-24-cocos2dx-3.md" afterPath="$PROJECT_DIR$/_posts/2015-05-24-cocos2dx-3.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-25-cocos2dx-4.md" afterPath="$PROJECT_DIR$/_posts/2015-05-25-cocos2dx-4.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-26-cocos2dx-5.md" afterPath="$PROJECT_DIR$/_posts/2015-05-26-cocos2dx-5.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-27-cocos2dx-6.md" afterPath="$PROJECT_DIR$/_posts/2015-05-27-cocos2dx-6.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-28-cocos2dx-7.md" afterPath="$PROJECT_DIR$/_posts/2015-05-28-cocos2dx-7.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-05-29-programmers-exclusive-15-riddle.md" afterPath="$PROJECT_DIR$/_posts/2015-05-29-programmers-exclusive-15-riddle.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-06-08-3d-coordinate-system.md" afterPath="$PROJECT_DIR$/_posts/2015-06-08-3d-coordinate-system.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-06-08-coordinate-system.md" afterPath="$PROJECT_DIR$/_posts/2015-06-08-coordinate-system.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-06-09-vector-operation.md" afterPath="$PROJECT_DIR$/_posts/2015-06-09-vector-operation.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-06-09-vector.md" afterPath="$PROJECT_DIR$/_posts/2015-06-09-vector.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-06-10-jekyll-math-formula.md" afterPath="$PROJECT_DIR$/_posts/2015-06-10-jekyll-math-formula.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-06-10-matrix-and-linear-transformation.md" afterPath="$PROJECT_DIR$/_posts/2015-06-10-matrix-and-linear-transformation.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-06-10-matrix.md" afterPath="$PROJECT_DIR$/_posts/2015-06-10-matrix.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-06-16-fingergestures.md" afterPath="$PROJECT_DIR$/_posts/2015-06-16-fingergestures.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-06-24-how-to-undo-almost-anything-with-git.md" afterPath="$PROJECT_DIR$/_posts/2015-06-24-how-to-undo-almost-anything-with-git.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-06-25-troubles-of-realizing-download-module.md" afterPath="$PROJECT_DIR$/_posts/2015-06-25-troubles-of-realizing-download-module.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-06-26-the-different-between-exec-and-xarg.md" afterPath="$PROJECT_DIR$/_posts/2015-06-26-the-different-between-exec-and-xarg.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-06-30-mac-shadowsocksx.md" afterPath="$PROJECT_DIR$/_posts/2015-06-30-mac-shadowsocksx.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-01-what-should-xcode-6-gitignore-file-include.md" afterPath="$PROJECT_DIR$/_posts/2015-07-01-what-should-xcode-6-gitignore-file-include.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-02-jmeter-demo.md" afterPath="$PROJECT_DIR$/_posts/2015-07-02-jmeter-demo.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-03-mac-vimrc.md" afterPath="$PROJECT_DIR$/_posts/2015-07-03-mac-vimrc.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-04-5-find-command-of-linux.md" afterPath="$PROJECT_DIR$/_posts/2015-07-04-5-find-command-of-linux.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-04-things-i-wish-i-had-known-before-starting-ios-developmentpart-1.md" afterPath="$PROJECT_DIR$/_posts/2015-07-04-things-i-wish-i-had-known-before-starting-ios-developmentpart-1.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-05-things-i-wish-i-had-known-before-starting-ios-developmentpart-2.md" afterPath="$PROJECT_DIR$/_posts/2015-07-05-things-i-wish-i-had-known-before-starting-ios-developmentpart-2.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-06-gpxj-1-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-06-gpxj-1-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-07-gpxj-2-1-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-07-gpxj-2-1-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-07-gpxj-2-2-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-07-gpxj-2-2-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-07-gpxj-2-3-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-07-gpxj-2-3-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-07-gpxj-2-4-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-07-gpxj-2-4-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-07-gpxj-2-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-07-gpxj-2-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-08-gpxj-3-1-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-08-gpxj-3-1-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-08-gpxj-3-2-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-08-gpxj-3-2-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-08-gpxj-3-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-08-gpxj-3-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-09-gpxj-4-1-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-09-gpxj-4-1-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-09-gpxj-4-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-09-gpxj-4-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-10-gpxj-5-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-10-gpxj-5-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-11-gpxj-6-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-11-gpxj-6-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-12-gpxj-7-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-12-gpxj-7-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-13-gpxj-8-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-13-gpxj-8-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-14-gpxj-9-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-14-gpxj-9-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-15-gpxj-10-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-15-gpxj-10-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-16-gpxj-11-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-16-gpxj-11-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-17-gpxj-12-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-17-gpxj-12-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-18-gpxj-13-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-18-gpxj-13-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-19-gpxj-14-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-19-gpxj-14-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-20-gpxj-15-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-20-gpxj-15-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-21-gpxj-16-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-21-gpxj-16-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-22-gpxj-17-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-22-gpxj-17-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-23-gpxj-18-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-23-gpxj-18-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-24-gpxj-19-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-24-gpxj-19-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-25-gpxj-20-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-25-gpxj-20-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-26-gpxj-21-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-26-gpxj-21-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-27-gpxj-22-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-27-gpxj-22-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-28-gpxj-23-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-28-gpxj-23-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-29-gpxj-24-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-29-gpxj-24-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-30-gpxj-25-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-30-gpxj-25-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-31-gpxj-26-day.md" afterPath="$PROJECT_DIR$/_posts/2015-07-31-gpxj-26-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-08-01-gpxj-27-day.md" afterPath="$PROJECT_DIR$/_posts/2015-08-01-gpxj-27-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-08-02-gpxj-28-day.md" afterPath="$PROJECT_DIR$/_posts/2015-08-02-gpxj-28-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-08-03-gpxj-29-day.md" afterPath="$PROJECT_DIR$/_posts/2015-08-03-gpxj-29-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-08-04-gpxj-30-day.md" afterPath="$PROJECT_DIR$/_posts/2015-08-04-gpxj-30-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-08-05-gpxj-31-day.md" afterPath="$PROJECT_DIR$/_posts/2015-08-05-gpxj-31-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-08-06-gpxj-32-day.md" afterPath="$PROJECT_DIR$/_posts/2015-08-06-gpxj-32-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-08-07-gpxj-33-day.md" afterPath="$PROJECT_DIR$/_posts/2015-08-07-gpxj-33-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-08-08-gpxj-34-day.md" afterPath="$PROJECT_DIR$/_posts/2015-08-08-gpxj-34-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-08-09-gpxj-35-day.md" afterPath="$PROJECT_DIR$/_posts/2015-08-09-gpxj-35-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-08-10-gpxj-36-day.md" afterPath="$PROJECT_DIR$/_posts/2015-08-10-gpxj-36-day.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-08-11-haskell-1.md" afterPath="$PROJECT_DIR$/_posts/2015-08-11-haskell-1.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-08-12-haskell-2.md" afterPath="$PROJECT_DIR$/_posts/2015-08-12-haskell-2.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-08-13-haskell-3.md" afterPath="$PROJECT_DIR$/_posts/2015-08-13-haskell-3.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-08-14-haskell-4.md" afterPath="$PROJECT_DIR$/_posts/2015-08-14-haskell-4.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-08-15-haskell-5.md" afterPath="$PROJECT_DIR$/_posts/2015-08-15-haskell-5.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-01-ios-dev-log.md" afterPath="$PROJECT_DIR$/_posts/2015-09-01-ios-dev-log.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-05-software-and-configuration.md" afterPath="$PROJECT_DIR$/_posts/2015-09-05-software-and-configuration.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-07-synthesia.md" afterPath="$PROJECT_DIR$/_posts/2015-09-07-synthesia.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-14-ios-dev-log.md" afterPath="$PROJECT_DIR$/_posts/2015-09-14-ios-dev-log.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(1)-simple-values.md" afterPath="$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(1)-simple-values.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(2)-control-flow.md" afterPath="$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(2)-control-flow.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(3)-functions-and-Closures.md" afterPath="$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(3)-functions-and-Closures.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(4)-enumerations-and-structures.md" afterPath="$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(4)-enumerations-and-structures.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(5)-objects-and-classes.md" afterPath="$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(5)-objects-and-classes.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(6)-protocols-and-Extensions.md" afterPath="$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(6)-protocols-and-Extensions.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(7)-generics.md" afterPath="$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(7)-generics.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-22-swift-keyworks.md" afterPath="$PROJECT_DIR$/_posts/2015-09-22-swift-keyworks.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-26-free-programming-books-zh_cn-1.md" afterPath="$PROJECT_DIR$/_posts/2015-09-26-free-programming-books-zh_cn-1.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-26-free-programming-books-zh_cn-2.md" afterPath="$PROJECT_DIR$/_posts/2015-09-26-free-programming-books-zh_cn-2.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-09-26-free-programming-books-zh_cn-3.md" afterPath="$PROJECT_DIR$/_posts/2015-09-26-free-programming-books-zh_cn-3.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-10-13-138-wwdc.md" afterPath="$PROJECT_DIR$/_posts/2015-10-13-138-wwdc.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-10-14-wwdc-104_sd_whats_new_in_xcode.md" afterPath="$PROJECT_DIR$/_posts/2015-10-14-wwdc-104_sd_whats_new_in_xcode.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-10-25-iosdevlog-video.md" afterPath="$PROJECT_DIR$/_posts/2015-10-25-iosdevlog-video.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-11-08-top-10-wwdc-2015-videos.md" afterPath="$PROJECT_DIR$/_posts/2015-11-08-top-10-wwdc-2015-videos.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-11-09-iosdevlog-git-3d-log.md" afterPath="$PROJECT_DIR$/_posts/2015-11-09-iosdevlog-git-3d-log.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-11-16-195196-wwdc2015-226-advanced-nsoperations.md" afterPath="$PROJECT_DIR$/_posts/2015-11-16-195196-wwdc2015-226-advanced-nsoperations.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-11-19-197-200-wwdc-2015-session-406-ui-testing-in-xcode.md" afterPath="$PROJECT_DIR$/_posts/2015-11-19-197-200-wwdc-2015-session-406-ui-testing-in-xcode.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-11-20-ios-human-interface-guidelines.md" afterPath="$PROJECT_DIR$/_posts/2015-11-20-ios-human-interface-guidelines.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-11-23-ui-test-resource.md" afterPath="$PROJECT_DIR$/_posts/2015-11-23-ui-test-resource.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-12-02-start-developing-ios-apps-today.md" afterPath="$PROJECT_DIR$/_posts/2015-12-02-start-developing-ios-apps-today.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-12-15-the-ios-apprentice-1-1-gettingstarted.md" afterPath="$PROJECT_DIR$/_posts/2015-12-15-the-ios-apprentice-1-1-gettingstarted.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-12-15-the-ios-apprentice-1-2-gettingstarted.md" afterPath="$PROJECT_DIR$/_posts/2015-12-15-the-ios-apprentice-1-2-gettingstarted.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-12-28-the-ios-apprentice-Checklists-1.md" afterPath="$PROJECT_DIR$/_posts/2015-12-28-the-ios-apprentice-Checklists-1.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-12-29-the-ios-apprentice-Checklists-2.md" afterPath="$PROJECT_DIR$/_posts/2015-12-29-the-ios-apprentice-Checklists-2.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-12-30-the-ios-apprentice-Checklists-3.md" afterPath="$PROJECT_DIR$/_posts/2015-12-30-the-ios-apprentice-Checklists-3.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-12-30-the-ios-apprentice-Checklists-4.md" afterPath="$PROJECT_DIR$/_posts/2015-12-30-the-ios-apprentice-Checklists-4.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-01-01-the-ios-apprentice-Checklists-5.md" afterPath="$PROJECT_DIR$/_posts/2016-01-01-the-ios-apprentice-Checklists-5.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-01-02-the-ios-apprentice-Checklists-6.md" afterPath="$PROJECT_DIR$/_posts/2016-01-02-the-ios-apprentice-Checklists-6.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-01-03-the-ios-apprentice-Checklists-7.md" afterPath="$PROJECT_DIR$/_posts/2016-01-03-the-ios-apprentice-Checklists-7.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-01-05-the-ios-apprentice-Checklists-8.md" afterPath="$PROJECT_DIR$/_posts/2016-01-05-the-ios-apprentice-Checklists-8.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-01-07-the-ios-apprentice-Checklists-9.md" afterPath="$PROJECT_DIR$/_posts/2016-01-07-the-ios-apprentice-Checklists-9.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-01-09-the-ios-apprentice-Checklists-10.md" afterPath="$PROJECT_DIR$/_posts/2016-01-09-the-ios-apprentice-Checklists-10.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-01-14-the-ios-apprentice-Checklists-11.md" afterPath="$PROJECT_DIR$/_posts/2016-01-14-the-ios-apprentice-Checklists-11.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-01-17-the-ios-apprentice-Checklists-end.md" afterPath="$PROJECT_DIR$/_posts/2016-01-17-the-ios-apprentice-Checklists-end.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-02-19-add-new-photos-to-the-simulator.md" afterPath="$PROJECT_DIR$/_posts/2016-02-19-add-new-photos-to-the-simulator.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-03-04-iconoverlaying.md" afterPath="$PROJECT_DIR$/_posts/2016-03-04-iconoverlaying.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-03-18-glossary.md" afterPath="$PROJECT_DIR$/_posts/2016-03-18-glossary.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-03-18-wwdc-chinese.md" afterPath="$PROJECT_DIR$/_posts/2016-03-18-wwdc-chinese.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-03-22-apple-special-event-march-21-2016.md" afterPath="$PROJECT_DIR$/_posts/2016-03-22-apple-special-event-march-21-2016.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-04-21-Table-Views-Quick-Start.md" afterPath="$PROJECT_DIR$/_posts/2016-04-21-Table-Views-Quick-Start.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-04-22-How-the-Table-View-Fits-Together.md" afterPath="$PROJECT_DIR$/_posts/2016-04-22-How-the-Table-View-Fits-Together.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-04-23-Collection-Views-Quick-Start.md" afterPath="$PROJECT_DIR$/_posts/2016-04-23-Collection-Views-Quick-Start.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-04-24-How-The-Collection-View-Fits-Together.md" afterPath="$PROJECT_DIR$/_posts/2016-04-24-How-The-Collection-View-Fits-Together.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-04-25-Feeding-Data-to-Your-Views.md" afterPath="$PROJECT_DIR$/_posts/2016-04-25-Feeding-Data-to-Your-Views.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-04-26-How-the-Table-Cell-Fits-Together.md" afterPath="$PROJECT_DIR$/_posts/2016-04-26-How-the-Table-Cell-Fits-Together.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-07-07-free-code-camp.md" afterPath="$PROJECT_DIR$/_posts/2016-07-07-free-code-camp.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-07-25-Pro_iOS_Table_Views_and_Collection_Views.md" afterPath="$PROJECT_DIR$/_posts/2016-07-25-Pro_iOS_Table_Views_and_Collection_Views.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-08-25-android-studio.md" afterPath="$PROJECT_DIR$/_posts/2016-08-25-android-studio.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-09-02-mac-command-line-tools.md" afterPath="$PROJECT_DIR$/_posts/2016-09-02-mac-command-line-tools.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-09-03-downdown-android-samples.md" afterPath="$PROJECT_DIR$/_posts/2016-09-03-downdown-android-samples.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-09-12-mac-applications.md" afterPath="$PROJECT_DIR$/_posts/2016-09-12-mac-applications.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-09-18-android-0.md" afterPath="$PROJECT_DIR$/_posts/2016-09-18-android-0.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-09-19-android-1.md" afterPath="$PROJECT_DIR$/_posts/2016-09-19-android-1.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-09-20-android-2.md" afterPath="$PROJECT_DIR$/_posts/2016-09-20-android-2.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-09-21-android-3.md" afterPath="$PROJECT_DIR$/_posts/2016-09-21-android-3.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-09-22-android-4.md" afterPath="$PROJECT_DIR$/_posts/2016-09-22-android-4.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-09-23-android-5.md" afterPath="$PROJECT_DIR$/_posts/2016-09-23-android-5.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-09-24-android-6.md" afterPath="$PROJECT_DIR$/_posts/2016-09-24-android-6.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-09-25-android-7.md" afterPath="$PROJECT_DIR$/_posts/2016-09-25-android-7.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-10-29-android-13.md" afterPath="$PROJECT_DIR$/_posts/2016-10-29-android-13.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-11-11-Android-Push-GCM(GCM).md" afterPath="$PROJECT_DIR$/_posts/2016-11-11-Android-Push-GCM(GCM).md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-11-11-iOS-push-APNS.md" afterPath="$PROJECT_DIR$/_posts/2016-11-11-iOS-push-APNS.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-11-11-iOS_Android-CI-Jenkins-Fastlane.md" afterPath="$PROJECT_DIR$/_posts/2016-11-11-iOS_Android-CI-Jenkins-Fastlane.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-12-05-AndroidBlog.md" afterPath="$PROJECT_DIR$/_posts/2016-12-05-AndroidBlog.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-12-16-fragments-and-ui-modularization.md" afterPath="$PROJECT_DIR$/_posts/2016-12-16-fragments-and-ui-modularization.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-02-09-mouse-recorder-for-mac.md" afterPath="$PROJECT_DIR$/_posts/2017-02-09-mouse-recorder-for-mac.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-02-13-react-native-helloworld" afterPath="$PROJECT_DIR$/_posts/2017-02-13-react-native-helloworld" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.md" afterPath="$PROJECT_DIR$/index.md" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="2015-09-21-the-swift-programming-language-swift-2-(1)-simple-values.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(1)-simple-values.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="105">
+                <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-09-21-the-swift-programming-language-swift-2-(2)-control-flow.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(2)-control-flow.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="120">
+                <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-09-21-the-swift-programming-language-swift-2-(3)-functions-and-Closures.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(3)-functions-and-Closures.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="120">
+                <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-09-21-the-swift-programming-language-swift-2-(4)-enumerations-and-structures.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(4)-enumerations-and-structures.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="120">
+                <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-09-21-the-swift-programming-language-swift-2-(5)-objects-and-classes.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(5)-objects-and-classes.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="120">
+                <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-09-21-the-swift-programming-language-swift-2-(6)-protocols-and-Extensions.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(6)-protocols-and-Extensions.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="120">
+                <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-09-21-the-swift-programming-language-swift-2-(7)-generics.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(7)-generics.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="390">
+                <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-11-23-ui-test-resource.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-11-23-ui-test-resource.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-12-02-start-developing-ios-apps-today.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-12-02-start-developing-ios-apps-today.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2015-11-24-gameplaykit-framework-reference.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-11-24-gameplaykit-framework-reference.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="90">
+                <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>{% include JB/setup %}</find>
+      <find>{% highlight objective-c %}</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/_drafts/jekyll-introduction-draft.md" />
+        <option value="$PROJECT_DIR$/_posts/2015-07-09-gpxj-4-1-day.md" />
+        <option value="$PROJECT_DIR$/_posts/2015-07-20-gpxj-15-day.md" />
+        <option value="$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(1)-simple-values.md" />
+        <option value="$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(2)-control-flow.md" />
+        <option value="$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(3)-functions-and-Closures.md" />
+        <option value="$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(4)-enumerations-and-structures.md" />
+        <option value="$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(5)-objects-and-classes.md" />
+        <option value="$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(6)-protocols-and-Extensions.md" />
+        <option value="$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(7)-generics.md" />
+        <option value="$PROJECT_DIR$/_posts/2015-11-24-gameplaykit-framework-reference.md" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="456" />
+    <option name="y" value="23" />
+    <option name="width" value="1278" />
+    <option name="height" value="1417" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iOSDevLog.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iOSDevLog.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iOSDevLog.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iOSDevLog.com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c5daed11-7d03-4ce7-81c8-0936b6926c4e" name="Default" comment="" />
+      <created>1489133163484</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1489133163484</updated>
+      <workItem from="1489133165389" duration="22000" />
+      <workItem from="1489133462534" duration="670000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="692000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="456" y="23" width="1278" height="1417" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32937685" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_site/3d/2015/06/08/3d-coordinate-system.html" />
+    <entry file="file://$PROJECT_DIR$/_drafts/jekyll-introduction-draft.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-07-09-gpxj-4-1-day.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="315">
+            <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-07-20-gpxj-15-day.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="27" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-05-09-nsmutableattributedstring.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="343">
+            <caret line="79" column="19" lean-forward="true" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(1)-simple-values.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="105">
+            <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="8" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(2)-control-flow.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(3)-functions-and-Closures.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(4)-enumerations-and-structures.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(5)-objects-and-classes.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(6)-protocols-and-Extensions.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/archive.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/categories.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tags.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-09-21-the-swift-programming-language-swift-2-(7)-generics.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="390">
+            <caret line="26" column="21" lean-forward="false" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-11-23-ui-test-resource.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-12-02-start-developing-ios-apps-today.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-11-24-gameplaykit-framework-reference.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="90">
+            <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

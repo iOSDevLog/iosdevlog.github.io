@@ -5,7 +5,7 @@ description: ""
 category: AutoLayout
 tags: [AutoLayout, ios]
 ---
-{% include JB/setup %}
+
 
 iOS 6 Programming Cookbook
 

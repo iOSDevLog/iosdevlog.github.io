@@ -5,7 +5,7 @@ description: ""
 category: ios
 tags: [ios]
 ---
-{% include JB/setup %}
+
 
 ## 英文原文：[Things I wish I had known before starting iOS development—Part 2](https://medium.com/ios-os-x-development/things-i-wish-i-had-known-before-starting-ios-development-part-2-d696eec65866)
 

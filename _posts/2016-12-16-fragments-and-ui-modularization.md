@@ -5,7 +5,7 @@ description: "AndroidDevLog"
 category: 
 tags: [AndroidDevLog]
 ---
-{% include JB/setup %}
+
 
 # Creating Dynamic UIs with Android Fragments - Second Edition
 

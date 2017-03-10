@@ -5,7 +5,7 @@ description: ""
 category: 
 tags: [Android]
 ---
-{% include JB/setup %}
+
 
 Android Studio 里面有一个 "Import an Android code sample"，因为各种原因无法下载。
 
