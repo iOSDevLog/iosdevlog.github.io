@@ -93,6 +93,8 @@ class Timeline extends React.Component {
 }
 ```
 
+![demo1](/assets/images/react/30/04/demo1.png)
+
 ## 拆分一下
 
 比将其构建在单个组件中更好的做法是，我们将其分解成多个组件。
@@ -169,6 +171,8 @@ class Header extends React.Component {
 }
 ```
 
+![demo2](/assets/images/react/30/04/demo2.png)
+
 最后，我们可以 `Content` 使用时间轴项目编写组件。每个时间轴项目被包装在单个组件中，具有与其相关联的头像，时间戳和一些文本。
 
 ```javascript
@@ -224,6 +228,8 @@ class App extends React.Component {
   }
 }
 ```
+
+![headDemo](/assets/images/react/30/04/headDemo.png)
 
 有了这些知识，我们现在有能力编写多个组件，我们可以开始构建更复杂的应用程序。
 
