@@ -54,7 +54,7 @@ tags: [React]
 
 在Babel `script`体中，我们定义了我们的第一个React应用程序。我们的应用程序由一个单一的元素组成`<h1>Hello world</h1>`。呼叫`ReactDOM.render()`实际上将我们的小React应用程序放置在页面上。没有调用ReactDOM.render()，DOM中不会呈现任何内容。的第一个参数ReactDOM.render()是什么来呈现，第二个是，其中：
 
-```
+```javascript
 ReactDOM.render(<what>, <where>)
 ```
 
