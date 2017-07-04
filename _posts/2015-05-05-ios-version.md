@@ -74,7 +74,7 @@ SCM 现在常用的有 Git 和 SVN, 还有一些相对小众的比如 hg 这里�
 
 {% highlight bash %}
 Git
-REV=`git rev-list HEAD | wc -l | awk '{print (}'`
+REV=`git rev-list HEAD | wc -l | awk '{print $1}'`
 {% endhighlight %}
 
 其中 *HEAD* 是分支名, 代表当前分支, 可以直接替换成其他分支名, 比如*master*, *dev*.
