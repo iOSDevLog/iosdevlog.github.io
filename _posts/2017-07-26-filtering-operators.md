@@ -1,10 +1,22 @@
 ---
 layout: post
 title: "Filtering Operators"
-description: ""
-category: 
-tags: []
+description: "RxSwift"
+category: RxSwift
+tags: [RxSwift, iOS]
 ---
+
+# RxMarbles for iOS
+
+![RxMarbles](https://raw.githubusercontent.com/RxSwiftCommunity/RxMarbles/master/rxmarbles.jpg)
+
+# This Could Be Us But You Playing
+
+<https://github.com/neonichu/ThisCouldBeUsButYouPlaying>
+
+```bash
+$ gem install cocoapods-playgrounds
+```
 
 ```swift
 public func example(of description: String, action: () -> Void) {
