@@ -8,7 +8,11 @@ tags: [Google]
 
 ## <https://analytics.google.com/>
 
-创建一个新的网站。
+![add](/assets/images/Google/Analytics/add.png)
+
+创建一个新的帐号。
+
+![info](/assets/images/Google/Analytics/info.png)
 
 保存 跟踪ID: 
 
@@ -43,5 +47,17 @@ google_analytics: UA-104431384-1
 ## 生效
 
 可以在 Chrome 上面安装 [Google Analytics（分析）帮助](https://get.google.com/tagassistant),查看Google Analytics是否安装成功！
+
+![enable](/assets/images/Google/Analytics/enable.png)
+
+还没有开启
+
+![notInstalled](/assets/images/Google/Analytics/not_installed.png)
+
+网站没有使用 Google Analytics
+
+![installed](/assets/images/Google/Analytics/installed.png)
+
+网站使用 Google Analytics
 
 用电脑，手机或者iPad访问，过几分钟就可以看到实时统计效果了。
