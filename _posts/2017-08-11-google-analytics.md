@@ -60,4 +60,6 @@ google_analytics: UA-104431384-1
 
 网站使用 Google Analytics
 
+![result](/assets/images/Google/Analytics/result.png)
+
 用电脑，手机或者iPad访问，过几分钟就可以看到实时统计效果了。
