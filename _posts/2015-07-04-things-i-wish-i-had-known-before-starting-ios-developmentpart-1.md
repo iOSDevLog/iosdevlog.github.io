@@ -129,6 +129,12 @@ Ray Wenderlich的博客（对初学者超有用）
 
 你可以在网上找到大量的Sketch资源和插件，它们能让你有趣而简单地工作。一旦完成了设计工作，你可以立刻用这个神器将它们整合在一起。
 
+[How to Sketch – 15 Tips For Better Sketches That Come to Life](https://www.jenreviews.com/how-to-sketch/) 这是一个详细的, 最新的，7000字的素描指南。它生动的介绍了如何素描并包括了15个详细的素描草图。
+
+![sketch.png](/assets/img/ios/start/sketch.jpg)
+
+当然，这个是教你如何手工素描而不是使用什么软件，如果对素描本身感兴趣的话，不防去学习一下。
+
 [Free mobile & web prototyping for designers - Marvel](https://marvelapp.com/)：将草图和设计转化为可交互的Web、iPhone、iPad、Android和Apple Watch原型和模板……
 
 ![14.png](/assets/img/ios/start/14.png)
