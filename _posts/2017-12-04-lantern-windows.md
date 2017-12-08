@@ -15,11 +15,11 @@ tags: [lantern]
 
 ### Download
 
-[lantern-for-win (4.4.0)](https://github.com/jiaxianhua/jiaxianhua.github.io/raw/master/assets/software/lantern/lantern-installer-preview.exe)
+[lantern-for-win (4.4.0)](https://github.com/iOSDevLog/iOSDevLog.github.io/raw/master/assets/software/lantern/lantern-installer-preview.exe)
 
-[lantern.zip](https://github.com/jiaxianhua/jiaxianhua.github.io/raw/master/assets/software/lantern/lantern.zip)
+[lantern.zip](https://raw.githubusercontent.com/iOSDevLog/iOSDevLog.github.io/master/assets/software/lantern/lantern.zip)
 
-[LoadPE](https://github.com/jiaxianhua/jiaxianhua.github.io/raw/master/assets/software/lantern/LoadPE.rar)
+[LoadPE](https://github.com/iOSDevLog/iOSDevLog.github.io/raw/master/assets/software/lantern/LoadPE.rar)
 
 ## Use
 
