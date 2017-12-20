@@ -267,6 +267,8 @@ let homeVC = HomeViewController()
 
 ```swift
 class HomeViewController {
+    var aName: String?
+
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: "HomeController", bundle: nil)
     }
@@ -281,6 +283,10 @@ class HomeViewController {
     }
 }
 ```
+
+嵌套 xib
+
+<https://github.com/iOSDevLog/iOSDevLog/tree/master/228.%20NestedXib>
 
 ![1](https://github.com/iOSDevLog/iOSDevLog/raw/master/228.%20NestedXib/1.png)
 
@@ -506,6 +512,8 @@ scrollView.contentSize.height = subView.top + subView.height+ subView.bottom;
 
 ## Launch Screen
 
+<https://github.com/iOSDevLog/iOSDevLog/tree/master/229.%20ScreenLunch>
+
 ```
 @interface AppDelegate ()
             
@@ -553,3 +561,308 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     return true
 }
 ```
+
+# 第6章 Interface Builder 进阶
+---
+
+## Use Trait Variations
+
+| 设备 | 竖屏 | 横屏 |
+|:----:|:----:|:----:|
+| 3.5 iPhone | wC hR | wC hC |
+| 4.0 iPhone | wC hR | wC hC |
+| 4.7 iPhone | wC hR | wC hC |
+| 5.5 iPhone | wC hR | wR hC |
+| iPad | wR hR | wR hR |
+
+## User Define Runtime Attribute
+
+| IB 中的类型 | Swift | Objective-C |
+|:---- |:---- |:---- |
+| Boolean | Bool | BOOL |
+| Number | +  | +  |
+| String | String | NSString |
+| Localized String | String | NSString |
+| Point | CGPoint | CGPoint |
+| Size | CGSize | CGSize |
+| Rect | CGRect | CGRect |
+| Range | Range | NSRange |
+| Color | UIColor | UIColor |
+| Image | UIImage | UIImage |
+| Nil | Nil | Nil |
+
+Number 在 Swift 里面可以对应 Int、Double、Float。
+在 Objective-C  里面可以对应 NSInteger、NSNumber 等。
+
+```swift
+extension UIView {
+    var borderColor: UIColor {
+        set {
+            self.layer.borderColor = newValue.cgColor
+        }
+        get {
+            return UIColor.init(cgColor: self.layer.borderColor!)
+        }
+    }
+}
+```
+
+## IB 文件的加载过程
+
+Bundle 和 UINib
+
+1. 将 nib 加载到内存
+1. 解固化并实例化 nib 文件里对应的对象
+1. 建立 connections (outlet、action)
+1. 调用 awakeFromNib() 方法
+1. 将 nib 中可见的控件显示出来
+
+## 本地化
+
+两种策略
+
+1. App 本地化跟随系统语言
+1. App 内部有一个可以设置语言的选项
+
+### 本地化介绍
+
+Base
+
+### 文本的本地化
+
+1. 利用 NSLocalizedString。 新建 Localizable.strings 文件
+
+Localizable.strings(English)
+
+```
+"test" = "hello world";
+```
+
+Localizable.strings(Chinese(Simplified))
+
+```
+"test" = "你好，世界";
+```
+
+```
+override func viewDidLoad() {
+    super.viewDidLoad()
+    // Localizable.string
+    testLabel.text = NSLocalizedString("test", comment: "")
+    // Home.strings
+    // testLabel.text = NSLocalizedString("test", tableName: "Home", comment: "")
+}
+```
+
+### Info.plist 的本地化
+
+新建 *InfoPlist.strings*，在 **Show the File inspector** 点击 **Localize...**
+
+InfoPlist.strings(English)
+
+```
+CFBundleName = "hello world";
+CFBundleDisplayName = "hello world";
+```
+
+InfoPlist.strings(Chinese(Simplified))
+
+```
+CFBundleName = "你好，世界";
+CFBundleDisplayName = "你好，世界";
+```
+
+### 图片资源的本地化
+
+* 方法1
+
+Localizable.strings(English)
+
+```
+"testImageName" = "1";
+```
+
+Localizable.strings(Chinese(Simplified))
+
+```
+"testImageName" = "2";
+```
+
+```
+testImageView.image = UIImage.init(named: NSLocalizedString("testImageName", comment: "")
+```
+
+* 方法2
+
+选中图片，*Show the File inspector* 点击 **localize...**，替换 *zh-Hans.lproj* 中的资源文件。
+
+## App 内设置语言的本地化
+
+<https://github.com/iOSDevLog/iOSDevLog/tree/master/230.%20Localizations>
+
+```swift
+extension Bundle {
+    class func loadLocalizableString(languageBundleName: String, key: String) -> String? {
+        let languageBundlePath = Bundle.main.path(forResource: languageBundleName, ofType: "lproj")
+        
+        guard languageBundlePath != nil else {
+            return nil
+        }
+        
+        let languageBundle = Bundle.init(path: languageBundlePath!)
+        guard languageBundle != nil else {
+            return nil
+        }
+        
+        let value = languageBundle?.localizedString(forKey: key, value: "", table: "")
+        
+        return value
+    }
+}
+
+func changeLanguage() {
+    let kTestKey = "testKey"
+    
+    switch selectIndex {
+    case 0:
+        testLabel.text = Bundle.loadLocalizableString(languageBundleName: Language.simplifiedChinese.rawValue, key: kTestKey)
+        break
+    case 1:
+        testLabel.text = Bundle.loadLocalizableString(languageBundleName: Language.english.rawValue, key: kTestKey)
+        break
+    case 2:
+        testLabel.text = Bundle.loadLocalizableString(languageBundleName: Language.japanese.rawValue, key: kTestKey)
+        break
+    case 3:
+        testLabel.text = Bundle.loadLocalizableString(languageBundleName: Language.korea.rawValue, key: kTestKey)
+        break
+    default:
+        break
+    }
+}
+```
+
+## Storyboard Reference 的使用
+
+使用 RBStoryboardLink <https://github.com/rob-brown/RBStoryboardLink>
+
+## 用 Object 重构 "神VC"
+
+代码量庞大、结构臃肿、可维护性差的 VC。
+
+### 使用 Object
+
+* 通常 VC 会成为很多对象的 delegate，需要处理很多回调。用 Object 替 VC 实现 delegate。
+* 将一些能用需求或交互模块化在对应的 Object 里。将需求或交互与 VC 解耦。
+
+## 用 External Object 重构 VC
+
+> 只能在于 xib
+
+## IB 中的关键字总结
+
+Swift
+* @IBAction
+* @IBOutlet
+* @IBDesignable
+* @IBInspectable
+
+Objective-C
+
+* IBAction
+* IBOutlet
+* IB_DESIGNABLE
+* IBInspectable
+* IBOutletCollection(ClassName)
+
+### @IBDesignalbe
+
+可以不运行程序的情况下把源文件中的一些代码实时渲染到 IB 中，但是源文件必须是 UIView 或者 NSView 的子类。
+
+```swift
+prepareForInterfaceBuild()
+```
+
+只需要将实时渲染的代码放到 prepareForInterfaceBuild() 方法中就可以了，该方法并不会在程序运行时调用。
+
+### @IBInspectable
+
+用 `@IBInspectable` 修饰的属性会显示在 IB 的 **Show the Attributes inspector**。
+
+```swift
+extension UIView {
+    private struct AssociatedKeys {
+        static var name: String?
+    }
+    
+    // 存储属性
+    @IBInspectable var name: String {
+        get {
+            return objc_getAssociatedObject(self, &AssociatedKeys.name) as! String
+        }
+        set {
+            objc_setAssociatedObject(self, &AssociatedKeys.name, newValue, .OBJC_ASSOCIATION_RETAIN)
+        }
+    }
+    
+    
+    // 计算属性
+    @IBInspectable var borderColor: UIColor {
+        set {
+            self.layer.borderColor = newValue.cgColor
+        }
+        get {
+            return UIColor.init(cgColor: self.layer.borderColor!)
+        }
+    }
+}
+```
+
+# 第7章 在 Interface Builder 开发中的技巧和 Bug
+---
+
+## 调整 View 的尺寸，使它与显示内容的尺寸相适应
+
+`comment` + `=`
+
+## 查看各个 View 之间的距离
+
+选中 View， 按住 `option`，悬停在其它 View 上。
+
+## 在 IB 中添加参考线
+
+`command` + `shift` + `-`
+
+`command` + `shift` + `|`
+
+## 快速调整底层被挡住的 View 的位置
+
+## 快速查看 View 的 UI 层次关系
+
+`command` + `shift` + `right click`
+
+## `连线`小技巧
+
+两个窗口
+
+## 使用*吸管*快速设置颜色
+
+## IB 中的复制与粘贴
+
+`command` + `c`
+
+`command` + `v`
+
+## 利用 Media Library 快速设置图片
+
+## IB 开发中遇到的一些小 bug
+
+最好的做法就是重启 Xcode。
+
+* 无法连线
+
+IB 文件是否与源文件关联
+
+* @IBAction 红色提示
+
+先在源文件中定义好方法，再从源文件 *拖* 到 IB 文件进行 `连线`
