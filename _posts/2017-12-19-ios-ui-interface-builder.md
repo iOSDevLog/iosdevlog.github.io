@@ -140,7 +140,7 @@ Open As -> Source Code
 
 ## 设计模式之*MVC*
 
-![mvc](/assets/images/book/IB/mvc.png)
+![mvc](http://iosdevlog.com/assets/images/book/IB/mvc.png)
 
 ## 理解 File's Owner
 
@@ -330,7 +330,7 @@ let profileVC = userStoryBoard.instantiateInitialViewController(withIdentifier: 
 
 ## Autoresizing
 
-![Autoresizing](/assets/images/book/IB/Autoresizing.png)
+![Autoresizing](http://iosdevlog.com/assets/images/book/IB/Autoresizing.png)
 
 默认选中左，上。
 
@@ -831,9 +831,13 @@ extension UIView {
 
 ## 在 IB 中添加参考线
 
-`command` + `shift` + `-`
+Editor -> Guides -> Add Horizontal Line
 
-`command` + `shift` + `|`
+`command` + `-`
+
+Editor -> Guides -> Add Vertical Line
+
+`command` + `ctrl` + `|`
 
 ## 快速调整底层被挡住的 View 的位置
 
