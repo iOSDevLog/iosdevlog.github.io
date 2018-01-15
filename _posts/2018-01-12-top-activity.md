@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "当前Activity Top Activity"
+title: "001. Top Activity 当前Activity"
 author: iosdevlog
 date: 2018-01-12 15:29:42 +0800
 description: ""
@@ -9,6 +9,8 @@ tags: []
 ---
 
 第一个应用是 Android 的取最顶部 `Activity`。
+
+![001.TopActivity](https://raw.githubusercontent.com/iOSDevLog/1Day1App/master/screenshot/002.QiuShiBaiKe.jpeg)
 
 ## 分析一下需求。
 
