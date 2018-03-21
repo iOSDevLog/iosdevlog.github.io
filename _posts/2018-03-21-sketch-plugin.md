@@ -167,7 +167,6 @@ $ cd my-plugin
 │           ├── manifest.json
 │           └── my-command.js
 └── package.json
-
 ```
 
 让我们通过所有这些文件的目的，并解释他们做了什么：
@@ -294,7 +293,7 @@ $ defaults write ~/Library/Preferences/com.bohemiancoding.sketch3.plist actionWi
 
 出于性能原因，Sketch会缓存Plugins文件夹的内容。这对用户来说非常方便，因为插件运行速度非常快，但如果您是开发人员，则会让您的生活变得艰难。这就是为什么我们添加了一个首选项来禁用此缓存机制并强制Sketch始终从磁盘重新加载插件的代码：
 
-```
+```bash
 $ defaults write ~/Library/Preferences/com.bohemiancoding.sketch3.plist AlwaysReloadScript -bool YES
 ```
 
@@ -310,7 +309,7 @@ $ defaults write ~/Library/Preferences/com.bohemiancoding.sketch3.plist AlwaysRe
 
 为此，您需要添加首选项：
 
-```
+```bash
 $ defaults write com.bohemiancoding.sketch3 WebKitDeveloperExtras -bool true
 ```
 
@@ -329,7 +328,7 @@ $ defaults write com.bohemiancoding.sketch3 WebKitDeveloperExtras -bool true
 
 有几个选项可以查看这些日志：
 
-* 打开Console.app并查找草图日志
+* 打开Console.app并查找Sketch日志
 * 看看这个文件`~/Library/Logs/com.bohemiancoding.sketch3/Plugin Output.log`
 * 运行`skpm log`它将输出上面的文件（`skpm log -f`对日志进行流式处理）
 
@@ -349,7 +348,7 @@ Sketch中的插件系统可让您完全访问应用程序的内部结构和macOS
 
 您可以使用由网桥定义的一些自省方法来访问这些信息。例如：
 
-```
+```js
 String(context.document.class()) // MSDocument
 
 var mocha = context.document.class().mocha()
@@ -365,10 +364,9 @@ mocha.classMethodsWithAncestors()
 
 mocha.protocols() // array of protocols the MSDocument class inherits from
 mocha.protocolsWithAncestors()
-
 ```
 
-## 草图的开发工具
+## Sketch的开发工具
 
 我们创建了一个小的Sketch特定工具来帮助您调试插件，并希望让您的生活更轻松。它采用Sketch插件的形式，您可以[在此](https://github.com/skpm/sketch-dev-tools/releases/latest)下载并随其启动`cmd + option + j`。
 
@@ -404,16 +402,14 @@ mocha.protocolsWithAncestors()
 +  }
   ...
 ],
-
 ```
 
 我们告诉我们的插件，我们希望`onOpenDocument`在文档打开时运行该功能，所以让我们将其添加到`my-action-listener.js`：
 
-```
+```js
 export function onOpenDocument(context) {
   context.document.showMessage('Document Opened')
 }
-
 ```
 
 保存所有内容，构建插件，现在，无论何时在Sketch中打开文档，您都应该看到一个小小的吐司(Toast)横幅，上面写着“文档已打开”。
@@ -490,7 +486,7 @@ Appcast符合[Sparkle文档](https://sparkle-project.org/documentation/)和[发�
 
 以下Appcast示例列出了插件的三个不同版本。每个版本都有自己的下载链接和简要说明文字。
 
-```
+```xml
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"  xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
@@ -533,7 +529,6 @@ Appcast符合[Sparkle文档](https://sparkle-project.org/documentation/)和[发�
       </item>
   </channel>
 </rss>
-
 ```
 
 ### 在您的插件中实现启动和关闭方法
@@ -579,7 +574,7 @@ Bundles包含一个`manifest.json`文件，一个或多个`.cocoascript`文件�
 
 这是一个例子：
 
-```
+```bash
 mrwalker.sketchplugin
   Contents/
     Sketch/
@@ -590,7 +585,6 @@ mrwalker.sketchplugin
     Resources/
       Screenshot.png
       Icon.png
-
 ```
 
 最关键的文件是`manifest.json`文件，它告诉Sketch其他所有内容。
@@ -599,11 +593,11 @@ mrwalker.sketchplugin
 
 清单是一个JSON文件，其中包含有关插件，其命令和资源的元数据。
 
-它描述了诸如全名，描述和作者姓名等内容。它列出了插件定义的任何命令的名称，并告诉草图调用相应的菜单项以及将它们放入哪个菜单。
+它描述了诸如全名，描述和作者姓名等内容。它列出了插件定义的任何命令的名称，并告诉Sketch调用相应的菜单项以及将它们放入哪个菜单。
 
 这是一个例子：
 
-```
+```json
 {
   "name": "Select Shapes",
   "description": "Plugins to select and deselect shapes",
@@ -637,7 +631,6 @@ mrwalker.sketchplugin
     "items": ["all", "circles", "rectangles"]
   }
 }
-
 ```
 
 这个插件被称为“选择形状”。它定义了三个命令“全部”，“圆”和“矩形”，它们将被放置在“选择形状”菜单中。
@@ -686,7 +679,7 @@ Sketch在内部使用该字符串来跟踪插件，为其存储设置等。
 
 一个字符串，指定[版本](http://semver.org/)素描在其中作者已测试了插件，例如`3`，`3.1`，`3.2.2`。
 
-目前（草图3.4）这是一个可选键，但我们可以在[插件页面](https://www.sketchapp.com/plugins/)的某个时刻将它用作过滤选项。
+目前（Sketch3.4）这是一个可选键，但我们可以在[插件页面](https://www.sketchapp.com/plugins/)的某个时刻将它用作过滤选项。
 
 它在内部使用[BCCompareVersions](https://github.com/BohemianCoding/BCFoundation/blob/develop/Source/BCVersionComparison.m#L11)函数来分割字符串`.`，然后比较每个组件的整数值。
 
@@ -745,13 +738,12 @@ Sketch在内部使用该字符串来跟踪插件，为其存储设置等。
 
 用脚本调用此命令的函数的名称。该函数必须采用单个`context`参数，这是一个带有当前文档和选择项等键的字典。如果未指定，则该命令预期为`onRun`：
 
-```
+```js
 var onRun = function (context) {
   var doc = context.document;
   var selection = context.selection;
   …
 }
-
 ```
 
 ## 插件菜单
@@ -785,7 +777,7 @@ var onRun = function (context) {
 
 这是一个例子。它在名为“My Plugin Menu”的菜单中定义了三个命令。菜单的前两项对应于插件的两个命令，但第三项是名为“My Plugin Submenu”的子菜单。这个子菜单中有一个项目（插件命令的第三个项目）：
 
-```
+```json
 {
   "menu": {
     "title": "My Plugin Menu",
@@ -799,7 +791,6 @@ var onRun = function (context) {
     ]
   }
 }
-
 ```
 
 ## 处理程序
@@ -810,11 +801,10 @@ var onRun = function (context) {
 
 这里有一个简单的例子：
 
-```
+```js
 var doMyCommand = function(context) {
   context.document.currentPage().deselectAllLayers()
 }
-
 ```
 
 在清单文件中，您可以指定一个描述插件定义的每个命令的字典。
@@ -874,7 +864,7 @@ Sketch中的脚本使用[CocoaScript](https://github.com/ccgus/CocoaScript)编�
 
 例如，selection属性为您提供当前文档中选定图层的列表：
 
-```
+```js
 var onRun = function(context) {
   var selection = context.selection
   for (var i = 0; i < selection.count(); i++) {
@@ -882,7 +872,6 @@ var onRun = function(context) {
     log('layer ' + layer.name + ' is selected.')
   }
 }
-
 ```
 
 Sketch中的所有插件都可以访问以下默认变量：
@@ -928,9 +917,8 @@ Sketch中的所有插件都可以访问以下默认变量：
 
 当Sketch启动时，它会扫描磁盘上的文件夹以查找插件。
 
-```
+```bash
 ~/Library/Application Support/com.bohemiancoding.sketch3/Plugins
-
 ```
 
 *（〜这里是你的主文件夹的简写，例如`/Users/joe`）*
@@ -949,7 +937,7 @@ Sketch中的所有插件都可以访问以下默认变量：
 
 要删除插件，只需选择**插件>管理插件...**菜单选项，选择要从列表中删除的插件，然后右键单击插件或单击齿轮图标，然后选择*卸载“插件名称”*：
 
-![Uninstall](http://upload-images.jianshu.io/upload_images/910914-c5873c897a0f0365..png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![Uninstall](https://developer.sketchapp.com/images/developer/plugin-uninstall.png)
 
 插件提供的任何命令都将立即从**插件**菜单中删除。
 
@@ -957,12 +945,13 @@ Sketch中的所有插件都可以访问以下默认变量：
 
 原文：<https://developer.sketchapp.com/guides/installing-plugins/>
 
+
 # 更多关于CocoaScript
 ---
 
 Sketch插件可以通过[Mocha](https://github.com/logancollins/Mocha)和[CocoaScript实现](https://github.com/ccgus/CocoaScript)，它允许您使用JavaScript编写的外部脚本使用Objective-C / Cocoa代码。该桥负责JavaScript和Cocoa之间的翻译，因此您可以专注于重要的部分（即使Sketch成为可怕的东西）。
 
-来自CocoaScript的自述文件：
+来自CocoaScript的README：
 
 > CocoaScript建立在Apple的JavaScriptCore之上，这是与Safari相同的JavaScript引擎。所以，当你在CocoaScript中编写代码时，你确实在编写JavaScript。
 > 
@@ -995,7 +984,7 @@ Objective-C方法作为对象的不透明JavaScript代理的属性公开。
 
 例如，如果你想打开一个File Picker面板，你可以使用[NSOpenPanel](https://developer.apple.com/documentation/appkit/nsopenpanel?language=objc)类：
 
-```
+```js
 var openPanel = NSOpenPanel.openPanel()
 openPanel.setCanChooseDirectories(false)
 openPanel.setCanChooseFiles(true)
@@ -1005,7 +994,6 @@ openPanel.setDirectoryURL(NSURL.fileURLWithPath('~/Documents/'))
 openPanel.setTitle('Choose a file')
 openPanel.setPrompt('Choose')
 openPanel.runModal()
-
 ```
 
 如果您需要更多关于Cocoa的信息，请查看[参考资料](https://developer.sketchapp.com/resources/)部分。
@@ -1016,10 +1004,9 @@ openPanel.runModal()
 
 对于某些Obj-C选择器，您可能需要传递一个指针。这在JavaScript中不存在，所以有一种全局方法来创建一个：
 
-```
+```js
 var ptr = MOPointer.alloc().init()
 var ptrToSomething = MOPointer.alloc().initWithValue(something)
-
 ```
 
 ### 长时间运行脚本
@@ -1028,16 +1015,14 @@ var ptrToSomething = MOPointer.alloc().initWithValue(something)
 
 你可以通过访问`COScript`：
 
-```
+```js
 COScript.currentCOScript().shouldKeepAround = true
-
 ```
 
 脚本完成其工作后，不要忘记释放它：
 
-```
+```js
 COScript.currentCOScript().shouldKeepAround = false
-
 ```
 
 ## 下一步
@@ -1055,13 +1040,13 @@ SketchTool是一个与Sketch捆绑在一起的命令行实用程序，它允许�
 
 SketchTool 与Sketch（和Sketch Beta）捆绑在一起。你可以找到它。
 
-```
+```bash
 Sketch.app/Contents/Resources/sketchtool/bin/sketchtool
 ```
 
 建议您在Sketch中使用它，而不是将其复制到其他位置，以便始终使用最新版本（更新Sketch时更新SketchTool，并且您需要使用更新后的版本进行阅读使用最新版本的Sketch保存的文件）。
 
-> 注意：SketchTool需要OSX 10.11或更高版本。
+> 注意：SketchTool需要**OSX 10.11**或更高版本。
 
 ### 重要
 
@@ -1075,7 +1060,7 @@ SketchTool可以免费使用，但它绝对没有保修。这就是说，如果�
 
 要了解可用的命令，请运行
 
-```
+```bash
 $ sketchtool help
 ```
 
@@ -1085,7 +1070,7 @@ $ sketchtool help
 
 ### 转储文件
 
-```
+```bash
 $ sketchtool dump path/to/document.sketch
 ```
 
@@ -1093,13 +1078,13 @@ $ sketchtool dump path/to/document.sketch
 
 如果您需要查看文档的元数据，但不想完整转储，则可以使用
 
-```
+```bash
 $ sketchtool metadata path/to/document.sketch
 ```
 
 你会得到类似的东西：
 
-```
+```json
 {
   "commit" : "b8111e3393c4ca1f2399ecfdfc1e9488029ebe7b",
   "pagesAndArtboards" : {
@@ -1148,25 +1133,27 @@ $ sketchtool metadata path/to/document.sketch
 
 运行
 
-```
+```bash
 $ sketchtool export artboards path/to/document.sketch
 ```
 
 将导出文档中的所有画板，无论其可导出状态如何。如果画板已设置为可导出，则SketchTool将导出所有尺寸和格式。否则，默认情况下，它们将以PNG格式以1x导出，您可以使用命令行选项指定自定义格式或大小：
 
-```
+```bash
 $ sketchtool export artboards path/to/document.sketch --formats=jpg
 ```
 
 您可以一次导出多个格式：
 
-sketchtool导出画板路径/ to / document.sketch -formats = jpg，png，svg```
+```bash
+$ sketchtool export artboards path/to/document.sketch -formats = jpg，png，svg
+```
 
-要查看SketchTool支持哪些格式，请运行sketchtool list formats。
+要查看SketchTool支持哪些格式，请运行`sketchtool list formats`。
 
 要定义大小，你可以这样做：
 
-```
+```bash
 $ sketchtool export artboards path/to/document.sketch --scales=1,2
 ```
 
@@ -1174,13 +1161,13 @@ $ sketchtool export artboards path/to/document.sketch --scales=1,2
 
 默认情况下，文件被导出到当前文档，但您可以像这样定义输出路径：
 
-```
+```bash
 $ sketchtool export artboards path/to/document.sketch --output=output/path
 ```
 
 如果不想导出所有画板，可以通过使用图层ID 的item或items选项来告诉SketchTool要导出的画板：
 
-```
+```bash
 $ sketchtool export artboards path/to/document.sketch --item=214B376A-C4A3-47A9-9B87-DFBC49A6EFE0
 ```
 
@@ -1194,7 +1181,10 @@ $ sketchtool export artboards path/to/document.sketch --item=214B376A-C4A3-47A9-
 
 ## 获取文档预览
 
-sketchtool export preview path/to/document.sketch
+```bash
+$ sketchtool export preview path/to/document.sketch
+```
+
 将为您提供文档中最后编辑页面的PNG预览，并将其另存为preview.png。SketchTool将尝试渲染100％的预览，但如果文档太大，则会缩小预览，使其适合2048 x 2048像素的矩形。
 
 ## 运行一个插件
@@ -1203,13 +1193,13 @@ SketchTool可以告诉Sketch启动并运行一个插件。如果您正在持续�
 
 想象一下，我们有这个代码的插件：
 
-```
+```js
 context.document.showMessage("Remote plugin running!")
 ```
 
 我们从Run Script ...面板中将它保存为'Remote Plugin' ，然后运行：
 
-```
+```bash
 $ sketchtool run ~/Library/Application\ Support/com.bohemiancoding.sketch3/Plugins/Remote\ Plugin.sketchplugin com.bohemiancoding.sketch.runscriptidentifier
 ```
 
@@ -1230,14 +1220,14 @@ Sketch中的插件系统可让您完全访问应用程序的内部结构和macOS
 
 下面的页面包含插件可以侦听的所有操作的简要说明，以及一些可以与之交互的关键Sketch类。这是JavaScript API，它在Sketch版本中保持稳定。
 
-*   [Javascript API](https://developer.sketchapp.com/reference/api)
-*   [操作](https://developer.sketchapp.com/reference/action)
+* [Javascript API](https://developer.sketchapp.com/reference/api)
+* [操作](https://developer.sketchapp.com/reference/action)
 
 尽管我们不打算记录内部信息，但您可以查看3种信息来源：
 
-*   [官方的AppKit文件](https://developer.apple.com/documentation/appkit?language=objc)：这是建立在Apple框架上的Sketch。
-*   [基础](https://developer.apple.com/documentation/foundation?language=objc)：更重要的苹果课程和服务。
-*   [Sketch Headers](https://github.com/abynim/Sketch-Headers)（Thanks @abynim）：这是Sketch使用的所有类的标题。如果您的插件由于使用了已删除的方法而与新版本分离，则可以检查差异以查找替换。
+* [官方的AppKit文件](https://developer.apple.com/documentation/appkit?language=objc)：这是建立在Apple框架上的Sketch。
+* [基础](https://developer.apple.com/documentation/foundation?language=objc)：更重要的苹果课程和服务。
+* [Sketch Headers](https://github.com/abynim/Sketch-Headers)（Thanks @abynim）：这是Sketch使用的所有类的标题。如果您的插件由于使用了已删除的方法而与新版本分离，则可以检查差异以查找替换。
 
 再一次，最后一个环节是自负风险，我们不会记录或冻结这些，但我们希望给你做任何事情的权力。
 
@@ -1245,3 +1235,56 @@ Sketch中的插件系统可让您完全访问应用程序的内部结构和macOS
 
 
 原文：<https://developer.sketchapp.com/reference/>
+
+# 资源
+---
+
+## JavaScript
+
+### 彻彻底底的新手
+
+* 在[Codecademy](https://www.codecademy.com/tracks/javascript)学习JavaScript的基础[知识](https://www.codecademy.com/tracks/javascript)
+* [Eloquent JavaScript](http://eloquentjavascript.net/)，一本关于JavaScript，编程和数字奇迹的书。
+
+### 有经验的开发者
+
+* 在[Mozilla上](https://developer.mozilla.org/en/Learn/JavaScript)学习Web> JavaScript[](https://developer.mozilla.org/en/Learn/JavaScript)
+* [重新介绍JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript)
+* [JavaScript：The Good Parts](http://shop.oreilly.com/product/9780596517748.do)，一本O'Reilly的书。
+
+## Cocoa
+
+* [AppKit](https://developer.apple.com/documentation/appkit?language=objc)是Sketch构建的主要Apple框架之一。
+* [基础](https://developer.apple.com/documentation/foundation?language=objc)，更重要的苹果课程和服务。
+
+## CocoaScript
+
+* [Sketch-Plugins-Cookbook](https://github.com/turbobabr/Sketch-Plugins-Cookbook)，来自[Andrey Shakhmin的一系列](https://github.com/turbobabr)精彩技巧和信息
+* [为插件开发人员绘制插件片段](https://medium.com/sketch-app-sources/sketch-plugin-snippets-for-plugin-developers-e9e1d2ab6827#.a3xn6hth6)
+* [我做了一个Sketch插件。你也可以](https://medium.com/sketch-app-sources/i-made-a-sketch-plugin-you-can-too-58a28b7277f1#.52umaxe3i)
+* [debugging-sketch-plugins](https://sketchplugindev.james.ooo/debugging-sketch-plugins-11cafc86df87#.64891ewop)
+* [我如何在不知道代码的情况下为我的团队制作Sketch插件](http://hackingui.com/design/how-to-create-a-sketch-plugin/)
+* [程序员设计不同：为什么我为Sketch 3构建了一个CSS插件](https://medium.com/sketch-app-sources/programmers-design-differently-why-i-built-a-css-plugin-for-sketch-3-52a1246305a4#.v0qjvzsfd)
+* [runner-speed-up-your-sketch-workflow](https://medium.com/sketch-app-sources/runner-speed-up-your-sketch-workflow-fba470ed43c1#.bgdpr68wy)
+
+## 示例插件
+
+* [Github](https://github.com/BohemianCoding/ExampleSketchPlugins)上[提供了](https://github.com/BohemianCoding/ExampleSketchPlugins)一些示例插件[](https://github.com/BohemianCoding/ExampleSketchPlugins)
+* 一个模板/示例Sketch插件，在Interface Builder中内置UI，并通过黑魔法连接到CocoaScript：[Sketch-NibUITemplatePlugin](https://github.com/romannurik/Sketch-NibUITemplatePlugin)
+
+## 第三方插件
+
+* [Sketch插件](https://github.com/sketchplugins/plugin-directory)，GitHub上托管的Sketch插件列表。
+* [awesome-sket.ch](http://awesome-sket.ch/)，Sketch插件的[精选](http://awesome-sket.ch/)列表。
+* [sketchplugins.com](http://sketchplugins.com/)，Sketch Plugin开发者的邮件列表。
+* [Sketchpacks](http://www.sketchpacks.com/)，查找并发现Sketch最有用的插件
+
+## 工具
+
+* [SketchTool](https://sketchapp.com/tool) - 用于从`.sketch`文档中导出页面和切片的`OS X`命令行应用程序。
+* [sketchapp-scripter](https://github.com/timuric/sketchapp-scripter)，由帖木儿Carpeev。一个Atom包，用于从Atom编辑器运行Sketch脚本。
+* [class-dump](http://stevenygard.com/projects/class-dump/)。我们尽力记录所有内容，但如果您喜欢冒险类型，则可能需要玩这个游戏。
+* [sketchpacks-relay](https://github.com/apps/sketchpacks-relay/)，[sketchpacks](https://sketchpacks.com/)。将您的Sketch插件发布到Sketchpacks插件注册表。自动[为您的Appcast Feed](https://docs.sketchpacks.com/developers/publishing/appcast.html)提供原生插件更新。
+* [skpm](https://skpm.io/) - 用于创建，制作和发布Sketch插件的实用程序。
+
+原文: <https://developer.sketchapp.com/resources/>
