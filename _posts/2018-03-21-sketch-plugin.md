@@ -85,7 +85,7 @@ Sketch功能的许多优秀社区创意可以更好地实现为插件而不是�
 * *操作*：用户所做的事情（选择菜单或更改文档）触发*命令*
 * *命令*：一个插件可以定义多个命令; 通常每一个都与不同的菜单或键盘快捷键相关联，并导致执行不同的*处理*程序。
 * *Handler*：执行一些代码来实现*Command*的函数。
-* *脚本*：一个包含一个或多个执行一个或多个*命令的**处理程序*的JavaScript文件。
+* *脚本*：包含一个或多个实现*处理程序*的*命令*的一个或多个JavaScript文件。
 
 ## 我如何制作插件？
 
@@ -101,7 +101,7 @@ export default function(context) {
 }
 ```
 
-它在Sketch文档底部呈现一个敬酒说“Hello，world！”。
+它在Sketch文档底部呈现一个Toast “Hello，world！”。
 
 接下来的几个指南将逐渐向您介绍插件的内部工作。我们将检查插件的构建块：[清单](https://developer.sketchapp.com/guides/plugin-bundles/)和脚本。一旦你掌握了它们，你可以创建复杂的插件！
 
@@ -232,7 +232,7 @@ export default function(context) {
 
 ## 为插件定义一个代码编辑器
 
-有最喜欢的代码编辑器？你可以告诉Sketch使用它来编辑插件。例如，如果你使用[Atom，](https://atom.io/)你可以这样做：
+有最喜欢的代码编辑器？你可以告诉Sketch使用它来编辑插件。例如，如果你使用[Atom]，(https://atom.io/)你可以这样做：
 
 ```bash
 $ defaults write ~/Library/Preferences/com.bohemiancoding.sketch3.plist "Plugin Editor" "/usr/local/bin/atom"
@@ -263,7 +263,7 @@ $ defaults delete ~/Library/Preferences/com.bohemiancoding.sketch3.plist scriptE
 $ defaults write ~/Library/Preferences/com.bohemiancoding.sketch3.plist scriptEditorFontSize 14
 ```
 
-## 收听Action API中的所有操作
+## 监听Action API中的所有操作
 
 **警告：**这是一项非常昂贵的操作，并且会影响Sketch的性能。请*仅在您的开发系统上使用此功能*，而**不要在客户的计算机上启用此功能**。
 
@@ -655,7 +655,7 @@ mrwalker.sketchplugin
 
 指定如何通过电子邮件与插件作者联系的可选字符串。
 
-#### `homagepa`
+#### `homepage`
 
 可选字符串，指定用户在线资源以查找更多信息或为插件提供反馈。
 
@@ -921,7 +921,7 @@ Sketch中的所有插件都可以访问以下默认变量：
 ~/Library/Application Support/com.bohemiancoding.sketch3/Plugins
 ```
 
-*（〜这里是你的主文件夹的简写，例如`/Users/joe`）*
+*（〜这里是你的主文件夹的简写，例如`/Users/iosdevlog`）*
 
 您可以轻松访问此插件文件夹`Alt`，方法是打开插件菜单并选择“显示插件文件夹”。
 
@@ -1050,7 +1050,7 @@ Sketch.app/Contents/Resources/sketchtool/bin/sketchtool
 
 ### 重要
 
-SketchTool可以免费使用，但它绝对没有保修。这就是说，如果您发现任何错误或有任何功能请求，请发送电子邮件给我们，我们将尽我们所能改善它。
+SketchTool可以免费使用，但它没有绝对担保。这就是说，如果您发现任何错误或有任何功能请求，请发送电子邮件给我们，我们将尽我们所能改善它。
 
 如果所使用的所有字体已安装在系统上，SketchTool只能导出文档。
 
@@ -1212,9 +1212,9 @@ SketchTool现在将启动Sketch，等待文档打开，然后运行我们的插�
 # 参考
 ---
 
-Sketch中的插件系统可让您完全访问应用程序的内部结构和macOS中的核心框架。所以你有一个巨大的力量来构建几乎*任何东西*。
+Sketch中的插件系统可让您完全访问应用程序的内部结构和macOS中的核心框架。所以你有一个强大的能力来构建几乎*任何东西*。
 
-然而，伟大的力量有很大的责任，所以你需要在每个Sketch版本中留意你的代码。我们会在重构时不时更改Sketch的内部结构，因此您的插件可能会调用一些已重命名或删除的方法。
+然而，强大的能力有很大的责任，所以你需要在每个Sketch版本中留意你的代码。我们会在重构时不时更改Sketch的内部结构，因此您的插件可能会调用一些已重命名或删除的方法。
 
 我们确实意识到这当然不是理想的。这就是为什么我们支持内部和插件之间的JavaScript API。我们希望它覆盖了90％的用例。如果没有，您可以随时进入内部，风险自担。
 
@@ -1261,7 +1261,7 @@ Sketch中的插件系统可让您完全访问应用程序的内部结构和macOS
 
 * [Sketch-Plugins-Cookbook](https://github.com/turbobabr/Sketch-Plugins-Cookbook)，来自[Andrey Shakhmin的一系列](https://github.com/turbobabr)精彩技巧和信息
 * [为插件开发人员绘制插件片段](https://medium.com/sketch-app-sources/sketch-plugin-snippets-for-plugin-developers-e9e1d2ab6827#.a3xn6hth6)
-* [我做了一个Sketch插件。你也可以](https://medium.com/sketch-app-sources/i-made-a-sketch-plugin-you-can-too-58a28b7277f1#.52umaxe3i)
+* [我做了一个Sketch插件,你也可以](https://medium.com/sketch-app-sources/i-made-a-sketch-plugin-you-can-too-58a28b7277f1#.52umaxe3i)
 * [debugging-sketch-plugins](https://sketchplugindev.james.ooo/debugging-sketch-plugins-11cafc86df87#.64891ewop)
 * [我如何在不知道代码的情况下为我的团队制作Sketch插件](http://hackingui.com/design/how-to-create-a-sketch-plugin/)
 * [程序员设计不同：为什么我为Sketch 3构建了一个CSS插件](https://medium.com/sketch-app-sources/programmers-design-differently-why-i-built-a-css-plugin-for-sketch-3-52a1246305a4#.v0qjvzsfd)
@@ -1282,7 +1282,7 @@ Sketch中的插件系统可让您完全访问应用程序的内部结构和macOS
 ## 工具
 
 * [SketchTool](https://sketchapp.com/tool) - 用于从`.sketch`文档中导出页面和切片的`OS X`命令行应用程序。
-* [sketchapp-scripter](https://github.com/timuric/sketchapp-scripter)，由帖木儿Carpeev。一个Atom包，用于从Atom编辑器运行Sketch脚本。
+* [sketchapp-scripter](https://github.com/timuric/sketchapp-scripter)，由Timur Carpeev创建的一个Atom包，用于从Atom编辑器运行Sketch脚本。
 * [class-dump](http://stevenygard.com/projects/class-dump/)。我们尽力记录所有内容，但如果您喜欢冒险类型，则可能需要玩这个游戏。
 * [sketchpacks-relay](https://github.com/apps/sketchpacks-relay/)，[sketchpacks](https://sketchpacks.com/)。将您的Sketch插件发布到Sketchpacks插件注册表。自动[为您的Appcast Feed](https://docs.sketchpacks.com/developers/publishing/appcast.html)提供原生插件更新。
 * [skpm](https://skpm.io/) - 用于创建，制作和发布Sketch插件的实用程序。
