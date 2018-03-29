@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "sketch 插件开发文官文档"
+title: "sketch 插件开发官方文档"
 author: iosdevlog
 date: 2018-03-21 13:39:32 +0800
 description: ""
