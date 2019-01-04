@@ -17,21 +17,17 @@ title: iosdevlog
 email: iosdevlog@iosdevlog.com
 description: > # this means to ignore newlines until "baseurl:"
         iosdevlog.com
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: ""
 url: "http://iosdevlog.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: iosdevlog
 github_username: iosdevlog 
 
-paginate: 50
-
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
 
 # Google Analytics
 google_analytics: UA-104431384-1
+
