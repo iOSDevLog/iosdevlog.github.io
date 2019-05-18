@@ -1116,3 +1116,7 @@ Except as otherwise noted, the content of this page is licensed under the [Crea
 
 上次更新日期：二月 28, 2018
 
+## 更多参考资源：
+
+* [http://playground.tensorflow.org/](http://playground.tensorflow.org/)
+* [TensorFlow Tutorial:](https://www.guru99.com/tensorflow-tutorial.html) [https://www.guru99.com/tensorflow-tutorial.html](https://www.guru99.com/tensorflow-tutorial.html)
