@@ -29,6 +29,7 @@ task :post do
     post.puts "author: iosdevlog"
     post.puts "date: #{Time.now}"
     post.puts 'description: ""'
+    post.puts 'cover-img: /assets/img/avatar-icon.png'
     post.puts "category: #{category}"
     post.puts "tags: #{tags}"
     post.puts "---"
