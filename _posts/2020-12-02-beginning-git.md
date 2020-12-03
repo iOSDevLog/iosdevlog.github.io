@@ -5,10 +5,9 @@ author: iosdevlog
 date: 2020-12-02 09:09:47 +0800
 description: ""
 category: 
+cover-img: https://git-scm.com/images/branching-illustration@2x.png
 tags: [git, Software Engineering, Tools & Libraries, iOS & Swift Tutorials, Android & Kotlin, Tutorials Server-Side Swift, Unity Tutorials, macOS Tutorials]
 ---
-
-![branching-illustration](https://git-scm.com/images/branching-illustration@2x.png)
 
 In this introduction to using Git for source control you'll learn everything from cloning and creating repos, through committing and ignoring files, to managing remotes and pull requests.
 

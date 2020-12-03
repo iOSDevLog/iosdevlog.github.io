@@ -4,15 +4,12 @@ title: "Update jekyll"
 author: iosdevlog
 date: 2020-12-01 15:32:13 +0800
 description: ""
+cover-img: https://jekyllrb.com/img/logo-2x.png
 category: github
 tags: [jekyll]
 ---
 
-## Bundle Jekyll
-
-<https://stackoverflow.com/questions/53135863/macos-mojave-ruby-config-h-file-not-found>
-
-<https://github.com/orta/cocoapods-keys/issues/198#issuecomment-510909030>
+## Bundle Jekyll [^1] [^2]
 
 ```sh
 brew install rbenv ruby-build
@@ -75,3 +72,7 @@ kramdown
  ```
 
  `bundle update`
+
+[^1]: [macOS Mojave 'ruby/config.h' file not found](https://stackoverflow.com/questions/53135863/macos-mojave-ruby-config-h-file-not-found)
+
+[^2]: [Cocoapods-keys doesn't work after upgrading to macOS Catalina #198](https://github.com/orta/cocoapods-keys/issues/198#issuecomment-510909030)
