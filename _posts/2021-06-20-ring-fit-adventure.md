@@ -69,3 +69,6 @@ tags: []
 ![2021.05](/assets/images/RingFitAdventure/2021.05.png)
 ![2021.06](/assets/images/RingFitAdventure/2021.06.png)
 
+## 体重
+
+![Weight_2021.06.30](/assets/images/RingFitAdventure/Weight_2021.06.30.png)
